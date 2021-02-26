@@ -44,8 +44,8 @@ For example, the HTML code
 ```
 Generates the following visualization
 
-<div style="color: blue;">
-    <h1>Lorem ipsum dolor</h1>
+<div>
+    <h1 style="color: blue;">Lorem ipsum dolor</h1>
     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur commodo bibendum odio id ullamcorper. Pellentesque vel velit et ipsum consectetur porta. In hac habitasse platea dictumst. Nulla condimentum mi ac purus pellentesque pharetra. Vivamus bibendum mi magna, nec ornare eros ultricies sed. Nam a est a leo dapibus posuere. Donec aliquam tristique leo eu consequat. Phasellus sagittis nec nisi id bibendum.</p>
     <h2>Ut vel odio</h2>
     <p>Donec nisl elit, malesuada nec nisi nec, lobortis eleifend purus. Nullam auctor enim id nibh vulputate blandit. Quisque purus ligula, commodo et mi vel, euismod eleifend urna. Morbi et purus vitae tellus pharetra dignissim et eu nisi. In lobortis ligula id quam euismod blandit. Quisque aliquet auctor leo, in aliquet velit varius vel. Phasellus urna lectus, viverra at eleifend sit amet, tincidunt at eros. Vestibulum vitae pulvinar lorem. Proin lectus lectus, placerat id nunc sit amet, tristique aliquet neque. Aenean sit amet aliquam magna. Mauris non viverra ligula. Nullam at accumsan quam. Sed sed est sapien.</p>
