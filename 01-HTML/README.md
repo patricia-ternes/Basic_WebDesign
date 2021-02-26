@@ -16,7 +16,7 @@ Most elements have opening and closing tags. Usually a tag has the following str
 * Closing tag: `</element>`
 
 ### HTML Elements
-####Headings
+<h4>Headings</h4>
 
 * Main heading (h1) tag: `<h1>` and `</h1>`
 * Subheading (h2) tag: `<h2>` and `</h2>`
