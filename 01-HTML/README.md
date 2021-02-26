@@ -14,10 +14,10 @@ This repository is under construction!
 ## Elements
 Most elements have opening and closing tags. Usually a tag has the following structure:
 
-	<ul>
+	<div><ul>
 	<li> Opening tag: `<element>` </li>
 	* Closing tag: `</element>`
-	</ul>
+	</ul></div>
 
 ### HTML Elements
 <h4>Headings</h4>
