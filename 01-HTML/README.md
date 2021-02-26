@@ -44,7 +44,7 @@ For example, the HTML code
 
 Generates the following visualization
 
-<div>
+<div class="custom-div">
 	<h1>Lorem ipsum dolor</h1>
 	<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur commodo bibendum odio id ullamcorper. Pellentesque vel velit et ipsum consectetur porta. In hac habitasse platea dictumst. Nulla condimentum mi ac purus pellentesque pharetra. Vivamus bibendum mi magna, nec ornare eros ultricies sed. Nam a est a leo dapibus posuere. Donec aliquam tristique leo eu consequat. Phasellus sagittis nec nisi id bibendum.</p>
 	<h2>Ut vel odio</h2>
