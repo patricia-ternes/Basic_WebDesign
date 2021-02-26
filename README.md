@@ -1,8 +1,8 @@
-# Basic_WebDesign_Projects
+# Basic Web Design Projects
 
 In this repository you will find basic informations about HTML and CSS.
 
-## Important
+### Important
 
 This repository is under construction!
 

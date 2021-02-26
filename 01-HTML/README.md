@@ -1,9 +1,9 @@
 # Hypertext Markup Language - HTML
 
-## General Information
+### General Information
 In this page you will find basic informations about HTML.
 
-## Important
+### Important
 
 This repository is under construction!
 
