@@ -1,9 +1,4 @@
-(setq markdown-xhtml-header-content
-      "<style type='text/css'>
-div { color: none; }
-div:hover { text-decoration: underline; }
-</style>")
-
+(setq markdown-css-paths '("custom.css"))
 
 # Hypertext Markup Language - HTML
 
