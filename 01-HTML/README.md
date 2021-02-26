@@ -14,8 +14,8 @@ This repository is under construction!
 ## Elements
 Most elements have opening and closing tags. Usually a tag has the following structure:
 
-* Opening tag: `<element>`
-* Closing tag: `</element>`
+	* Opening tag: `<element>`
+	* Closing tag: `</element>`
 
 ### HTML Elements
 <h4>Headings</h4>
