@@ -41,6 +41,11 @@ For example, the HTML code
 	<p>Donec nisl elit, malesuada nec nisi nec, lobortis eleifend purus. Nullam auctor enim id nibh vulputate blandit. Quisque purus ligula, commodo et mi vel, euismod eleifend urna. Morbi et purus vitae tellus pharetra dignissim et eu nisi. In lobortis ligula id quam euismod blandit. Quisque aliquet auctor leo, in aliquet velit varius vel. Phasellus urna lectus, viverra at eleifend sit amet, tincidunt at eros. Vestibulum vitae pulvinar lorem. Proin lectus lectus, placerat id nunc sit amet, tristique aliquet neque. Aenean sit amet aliquam magna. Mauris non viverra ligula. Nullam at accumsan quam. Sed sed est sapien.</p>
 
 Generates the following visualization
+<style>
+  div {
+    color: red;
+  }
+</style>
 
 <div>
 	<h1>Lorem ipsum dolor</h1>
@@ -48,4 +53,5 @@ Generates the following visualization
 	<h2>Ut vel odio</h2>
 	<p>Donec nisl elit, malesuada nec nisi nec, lobortis eleifend purus. Nullam auctor enim id nibh vulputate blandit. Quisque purus ligula, commodo et mi vel, euismod eleifend urna. Morbi et purus vitae tellus pharetra dignissim et eu nisi. In lobortis ligula id quam euismod blandit. Quisque aliquet auctor leo, in aliquet velit varius vel. Phasellus urna lectus, viverra at eleifend sit amet, tincidunt at eros. Vestibulum vitae pulvinar lorem. Proin lectus lectus, placerat id nunc sit amet, tristique aliquet neque. Aenean sit amet aliquam magna. Mauris non viverra ligula. Nullam at accumsan quam. Sed sed est sapien.</p>
 </div>
+
 ### HTML5 Elements
