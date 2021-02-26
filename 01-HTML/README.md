@@ -1,4 +1,4 @@
-(setq markdown-css-paths '("custom.css"))
+<link rel="stylesheet" href="custom.css">
 
 # Hypertext Markup Language - HTML
 
