@@ -126,6 +126,25 @@ Generates the following visualization:
     <li>last item</li>
 </ul>
 
+#### Ordered List
+* Unordered list tag: `<ol>` and `</ol>`
+* List item tag: `<li>` and `<\li>`
+
+For example, the HTML code
+```html
+<ol>
+    <li>first item</li>
+    <li>second item</li>
+    <li>last item</li>
+</ol>
+```
+Generates the following visualization:
+<ol>
+    <li>first item</li>
+    <li>second item</li>
+    <li>last item</li>
+</ol>
+
 
 <h4>Footer</h4>
 <h4>nav</h4>
