@@ -24,6 +24,8 @@ Most elements have opening and closing tags. Usually a tag has the following str
 * Subheading (h2) tag: `<h2>` and `</h2>`
 * Other heading levels: h3, h4, h5 and h6
 
+For example, the HTML code
+
 ```html
 <h1> This is a main heading </h1>
 ```
@@ -31,7 +33,8 @@ Most elements have opening and closing tags. Usually a tag has the following str
 ```html
 <h2> This is a subheading </h2>
 ```
-
+<h1> This is a main heading </h1>
+<h2> This is a subheading </h2>
 ------
 #### Paragraph
 
