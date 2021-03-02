@@ -23,13 +23,20 @@ Most elements have opening and closing tags. Usually a tag has the following str
 * Other heading levels: h3, h4, h5 and h6
 
 ```html
-<h1> This is a Main heading </h1>
+<h1> This is a main heading </h1>
 ```
 
+```html
+<h2> This is a subheading heading </h2>
+```
 
 <h4>Paragraph</h4>
 
 * Paragraph tag: `<p>` and `</p>`
+
+```html
+<p> This is a paragraph </p>
+```
 
 <h4>Comment</h4>
 
