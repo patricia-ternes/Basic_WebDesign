@@ -77,6 +77,8 @@ For example, the HTML code
 Generates the following visualization:
 <a href="https://unsplash.com/">this links to Unsplash (source of freely-usable images)</a>
 
+[link](#hypertext-markup-language---html)
+
 #### Image
 
 * Image tag: `<img src="file/complete/path/or/url" alt="Image description">`
