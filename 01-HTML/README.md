@@ -93,7 +93,7 @@ Generates the following visualization:
 
 <a href="#paragraphy-to-link">this links to the previous paragraph.</a>
 
-
+------
 #### Image
 
 * Image tag: `<img src="file/complete/path/or/url" alt="Image description">`
@@ -107,6 +107,7 @@ For example, the HTML code
 Generates the following visualization
 <img src="https://bit.ly/3sNs7V7" alt="Female software engineer with projected code.">
 
+------
 #### Unordered List
 * Unordered list tag: `<ul>` and `</ul>`
 * List item tag: `<li>` and `<\li>`
@@ -126,6 +127,7 @@ Generates the following visualization:
     <li>last item</li>
 </ul>
 
+------
 #### Ordered List
 * Ordered list tag: `<ol>` and `</ol>`
 * List item tag: `<li>` and `<\li>`
@@ -145,6 +147,7 @@ Generates the following visualization:
     <li>last item</li>
 </ol>
 
+------
 #### Division Element
 
 Division tags are used to nest different HTML elements in just one container.
@@ -171,7 +174,7 @@ Generates the following visualization:
 </div>
 
 Note that in terms of visualization, the `div` tag has not changed anything. The purpose of the tag is to improve the code's readability and to allow future style improvements.
-
+------
 <!-- para criar formularios
 #### Text Field
 * Text field tag: `<input type="text">`
