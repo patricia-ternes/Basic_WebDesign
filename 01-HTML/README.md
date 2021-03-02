@@ -27,6 +27,7 @@ Most elements have opening and closing tags. Usually a tag has the following str
 * Paragraph tag: `<p>` and `</p>`
 
 <h4>Comment</h4>
+
 * Opening tag: `&lt!--`
 * Closing tag: `-->`
 
