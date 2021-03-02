@@ -16,6 +16,8 @@ Most elements have opening and closing tags. Usually a tag has the following str
 * Closing tag: `</element>`
 
 ### HTML Elements
+
+------
 #### Headings
 
 * Main heading (h1) tag: `<h1>` and `</h1>`
@@ -30,6 +32,7 @@ Most elements have opening and closing tags. Usually a tag has the following str
 <h2> This is a subheading </h2>
 ```
 
+------
 #### Paragraph
 
 * Paragraph tag: `<p>` and `</p>`
@@ -38,6 +41,7 @@ Most elements have opening and closing tags. Usually a tag has the following str
 <p> This is a paragraph </p>
 ```
 
+------
 #### Comment
 
 * Opening tag: &lt;!--
@@ -50,6 +54,7 @@ Most elements have opening and closing tags. Usually a tag has the following str
 ### HTML5 Elements
 HTML5 introduces new HTML tags that improve the structure and the readability of the HTML.
 
+------
 #### Main
 
 * Main tag: `<main>` and `</main>`
@@ -59,11 +64,12 @@ HTML5 introduces new HTML tags that improve the structure and the readability of
     The main content of the HTML page should be placed within a main tag.
 </main>
 ```
-
+------
 #### Header
 
 * Main tag: `<header>` and `</header>`
 
+------
 #### Anchor Elements
 Anchor elements are used to link content to the page.
 
