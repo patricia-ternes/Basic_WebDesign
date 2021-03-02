@@ -27,7 +27,7 @@ Most elements have opening and closing tags. Usually a tag has the following str
 ```
 
 ```html
-<h2> This is a subheading heading </h2>
+<h2> This is a subheading </h2>
 ```
 
 <h4>Paragraph</h4>
@@ -44,8 +44,33 @@ Most elements have opening and closing tags. Usually a tag has the following str
 * Closing tag: `-->`
 
 ```html
-<!-- This is a comment! -->
+<!-- This is a comment -->
 ```
+
+### HTML5 Elements
+HTML5 introduces new HTML tags that improve the structure and the readability of the HTML.
+
+<h4>Main</h4>
+
+* Main tag: `<main>` and `</main>`
+
+```html
+<main>
+	The main content of the HTML page should be placed within a main tag.
+</main>
+```
+
+<h4>Header</h4>
+
+* Main tag: `<header>` and `</header>`
+
+
+<h4>Footer</h4>
+<h4>nav</h4>
+<h4>video</h4>
+<h4>article</h4>
+<h4>section</h4>
+
 
 <!--
 For example, the HTML code
@@ -67,5 +92,3 @@ Generates the following visualization
     <p>Donec nisl elit, malesuada nec nisi nec, lobortis eleifend purus. Nullam auctor enim id nibh vulputate blandit. Quisque purus ligula, commodo et mi vel, euismod eleifend urna. Morbi et purus vitae tellus pharetra dignissim et eu nisi. In lobortis ligula id quam euismod blandit. Quisque aliquet auctor leo, in aliquet velit varius vel. Phasellus urna lectus, viverra at eleifend sit amet, tincidunt at eros. Vestibulum vitae pulvinar lorem. Proin lectus lectus, placerat id nunc sit amet, tristique aliquet neque. Aenean sit amet aliquam magna. Mauris non viverra ligula. Nullam at accumsan quam. Sed sed est sapien.</p>
 </div>
 -->
-
-### HTML5 Elements
