@@ -33,6 +33,8 @@ For example, the HTML code
 ```html
 <h2> This is a subheading </h2>
 ```
+Generates the following visualization:
+
 <h1> This is a main heading </h1>
 <h2> This is a subheading </h2>
 
