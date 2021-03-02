@@ -1,9 +1,9 @@
 # Hypertext Markup Language - HTML
 
-### General Information
+## General Information
 In this page you will find basic informations about HTML.
 
-### Important
+## Important
 
 This repository is under construction!
 
@@ -16,7 +16,7 @@ Most elements have opening and closing tags. Usually a tag has the following str
 * Closing tag: `</element>`
 
 ### HTML Elements
-<h4>Headings</h4>
+#### Headings
 
 * Main heading (h1) tag: `<h1>` and `</h1>`
 * Subheading (h2) tag: `<h2>` and `</h2>`
@@ -30,7 +30,7 @@ Most elements have opening and closing tags. Usually a tag has the following str
 <h2> This is a subheading </h2>
 ```
 
-<h4>Paragraph</h4>
+#### Paragraph
 
 * Paragraph tag: `<p>` and `</p>`
 
@@ -38,7 +38,7 @@ Most elements have opening and closing tags. Usually a tag has the following str
 <p> This is a paragraph </p>
 ```
 
-<h4>Comment</h4>
+#### Comment
 
 * Opening tag: &lt;!--
 * Closing tag: `-->`
@@ -50,7 +50,7 @@ Most elements have opening and closing tags. Usually a tag has the following str
 ### HTML5 Elements
 HTML5 introduces new HTML tags that improve the structure and the readability of the HTML.
 
-<h4>Main</h4>
+#### Main
 
 * Main tag: `<main>` and `</main>`
 
@@ -64,7 +64,7 @@ HTML5 introduces new HTML tags that improve the structure and the readability of
 
 * Main tag: `<header>` and `</header>`
 
-<h4>Anchor Elements</h4>
+#### Anchor Elements
 Anchor elements are used to link content to the page.
 
 * Anchor tag: `<a href="url_location">this links to some url</a>`
@@ -77,7 +77,7 @@ For example, the HTML code
 Generates the following visualization:
 <a href="https://unsplash.com/">this links to Unsplash (source of freely-usable images)</a>
 
-<h4>Image</h4>
+#### Image
 
 * Image tag: `<img src="file/complete/path/or/url" alt="Image description">`
 * Important: image tag is self-closing.
