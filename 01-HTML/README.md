@@ -162,7 +162,7 @@ For example, the HTML code
 </div>
 ```
 Generates the following visualization:
-<div id="ordered-list">  
+<div>  
     <ol>
         <li>first item</li>
         <li>second item</li>
