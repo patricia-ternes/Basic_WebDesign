@@ -69,9 +69,9 @@ HTML5 introduces new HTML tags that improve the structure and the readability of
 * Image tag: <img src="" alt="">
 
 ```html
-<img src="https://unsplash.com/photos/8hgmG03spF4" alt="Female software engineer with projected code.">
+<img src="shorturl.at/bjENS" alt="Female software engineer with projected code.">
 ```
-<img src="https://unsplash.com/photos/8hgmG03spF4" alt="Female software engineer with projected code.">
+<img src="shorturl.at/bjENS" alt="Female software engineer with projected code.">
 
 <h4>Footer</h4>
 <h4>nav</h4>
