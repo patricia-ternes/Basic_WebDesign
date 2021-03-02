@@ -107,6 +107,26 @@ For example, the HTML code
 Generates the following visualization
 <img src="https://bit.ly/3sNs7V7" alt="Female software engineer with projected code.">
 
+#### Unordered List
+* Unordered list tag: `<ul>` and `</ul>`
+* List item tag: `<li>` and `<\li>`
+
+For example, the HTML code
+```html
+<ul>
+    <li>first item</li>
+    <li>second item</li>
+    <li>last item</li>
+</ul>
+```
+Generates the following visualization:
+<ul>
+    <li>first item</li>
+    <li>second item</li>
+    <li>last item</li>
+</ul>
+
+
 <h4>Footer</h4>
 <h4>nav</h4>
 <h4>video</h4>
