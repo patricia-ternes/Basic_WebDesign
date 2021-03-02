@@ -60,7 +60,7 @@ HTML5 introduces new HTML tags that improve the structure and the readability of
 </main>
 ```
 
-<h4>Header</h4>
+#### Header
 
 * Main tag: `<header>` and `</header>`
 
@@ -74,7 +74,7 @@ For example, the HTML code
 ```html
 <a href="https://unsplash.com/">this links to Unsplash (source of freely-usable images)</a>
 ```
-Generates the following visualization
+Generates the following visualization:
 <a href="https://unsplash.com/">this links to Unsplash (source of freely-usable images)</a>
 
 <h4>Image</h4>
