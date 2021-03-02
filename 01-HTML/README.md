@@ -66,7 +66,7 @@ HTML5 introduces new HTML tags that improve the structure and the readability of
 
 <h4>Image</h4>
 
-* Image tag: <img src="file/complete/path/or/url" alt="Image description">
+* Image tag: `<img src="file/complete/path/or/url" alt="Image description">`
 * Important: image tag is self-closing.
 
 For example, the HTML code
