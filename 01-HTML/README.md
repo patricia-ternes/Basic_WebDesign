@@ -170,6 +170,7 @@ Generates the following visualization:
     </ol>
 </div>
 
+Note that in terms of visualization, the `div` tag has not changed anything. The purpose of the tag is to improve the code's readability and to allow future style improvements.
 
 <!-- para criar formularios
 #### Text Field
