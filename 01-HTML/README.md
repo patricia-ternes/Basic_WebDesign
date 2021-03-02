@@ -35,7 +35,7 @@ For example, the HTML code
 ```
 Generates the following visualization:
 
-<h1> This is a main heading </h1>
+<h1 style="color: blue;"> This is a main heading </h1>
 <h2> This is a subheading </h2>
 
 ------
