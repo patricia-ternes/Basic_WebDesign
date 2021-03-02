@@ -22,8 +22,6 @@ This repository is under construction!
 
   <body>
     The content displayed for a user of the HTML page should be placed within a body tag.
-    Usually is organized as fallow:
-
   </body>
 
 </html>
@@ -55,13 +53,13 @@ Most elements have opening and closing tags. Usually a tag has the following str
 * Opening tag: `<element>`
 * Closing tag: `</element>`
 
-------
 #### Headings
 
 * Main heading (h1) tag: `<h1>` and `</h1>`
 * Subheading (h2) tag: `<h2>` and `</h2>`
 * Other heading levels: h3, h4, h5 and h6
 
+------
 For example, the HTML code
 
 ```html
@@ -77,6 +75,7 @@ Generates the following visualization:
 <h2> This is a subheading </h2>
 
 ------
+
 #### Paragraph
 
 * Paragraph tag: `<p>` and `</p>`
