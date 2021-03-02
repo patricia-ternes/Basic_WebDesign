@@ -127,7 +127,7 @@ Generates the following visualization:
 </ul>
 
 #### Ordered List
-* Unordered list tag: `<ol>` and `</ol>`
+* Ordered list tag: `<ol>` and `</ol>`
 * List item tag: `<li>` and `<\li>`
 
 For example, the HTML code
@@ -145,6 +145,17 @@ Generates the following visualization:
     <li>last item</li>
 </ol>
 
+#### Text Field
+* Text field tag: `<input type="text">`
+* Placeholder atribute: text to display in the text field element.
+* Important: text fild is self-closing.
+
+For example, the HTML code
+```html
+<input type="text" placeholder="type your name">
+```
+Generates the following visualization:
+<input type="text" placeholder="type your name">
 
 <h4>Footer</h4>
 <h4>nav</h4>
