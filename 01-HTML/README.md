@@ -89,9 +89,9 @@ For example, the HTML code
 <a href="#paragraphy-to-link">this links to the previous paragraphy.</a>
 ```
 Generates the following visualization:
-    <p id='paragraphy-to-link'> This paragraphy can be linked internaly </p>
+<p id='paragraphy-to-link'> This paragraphy can be linked internaly </p>
 
-    <a href="#paragraphy-to-link">this links to the previous paragraphy.</a>
+<a href="#paragraphy-to-link">this links to the previous paragraphy.</a>
 
 
 #### Image
