@@ -7,15 +7,53 @@ In this page you will find basic informations about HTML.
 
 This repository is under construction!
 
+<!--
 ## Introduction
+-->
+
+## General structure of an HTML page
+```html
+<!DOCTYPE html>
+<html>
+  
+  <head>
+    Information about the HTML page should be placed within a head tag.
+  </head>
+
+  <body>
+    The content displayed for a user of the HTML page should be placed within a body tag.
+    Usually is organized as fallow:
+
+  </body>
+
+</html>
+```
+
+### Common `head` elements:
+* title (required)
+* style
+* meta
+* base
+* link
+* script
+* noscript
+
+### Common `body` elements:
+* [headings](#headings)
+* paragraph
+* anchor
+* image
+* division
+* unordered list
+* ordered list
+* list item
+* header, main, footer, and sections
 
 ## Elements
 Most elements have opening and closing tags. Usually a tag has the following structure:
 
 * Opening tag: `<element>`
 * Closing tag: `</element>`
-
-### HTML Elements
 
 ------
 #### Headings
@@ -35,7 +73,7 @@ For example, the HTML code
 ```
 Generates the following visualization:
 
-<h1 style="color: blue;"> This is a main heading </h1>
+<h1> This is a main heading </h1>
 <h2> This is a subheading </h2>
 
 ------
