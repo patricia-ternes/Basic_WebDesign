@@ -64,6 +64,19 @@ HTML5 introduces new HTML tags that improve the structure and the readability of
 
 * Main tag: `<header>` and `</header>`
 
+<h4>Anchor Elements</h4>
+Anchor elements are used to link content to the page.
+
+* Anchor tag: `<a href="url_location">this links to some url</a>`
+* href atribute: destination web address
+
+For example, the HTML code
+```html
+<a href="https://unsplash.com/">this links to Unsplash (source of freely-usable images)</a>
+```
+Generates the following visualization
+<a href="https://unsplash.com/">this links to Unsplash (source of freely-usable images)</a>
+
 <h4>Image</h4>
 
 * Image tag: `<img src="file/complete/path/or/url" alt="Image description">`
