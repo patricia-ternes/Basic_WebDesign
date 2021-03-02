@@ -56,7 +56,7 @@ HTML5 introduces new HTML tags that improve the structure and the readability of
 
 ```html
 <main>
-	The main content of the HTML page should be placed within a main tag.
+    The main content of the HTML page should be placed within a main tag.
 </main>
 ```
 
@@ -77,7 +77,22 @@ For example, the HTML code
 Generates the following visualization:
 <a href="https://unsplash.com/">this links to Unsplash (source of freely-usable images)</a>
 
-[link](#hypertext-markup-language---html)
+Anchor tags can link contents inside the same page. In this case is necessary:
+
+1. Include an identification atribute (`id`) in the desired element;
+2. Use the `href` atributte fallowed by a `#` and the `id` in the `<a>` tag to link the element;
+
+For example, the HTML code
+```html
+<p id='paragraphy-to-link'> This paragraphy can be linked internaly </p>
+
+<a href="#paragraphy-to-link">this links to the previous paragraphy.</a>
+```
+Generates the following visualization:
+<p id='paragraphy-to-link'> This paragraphy can be linked internaly </p>
+
+<a href="#paragraphy-to-link">this links to the previous paragraphy.</a>
+
 
 #### Image
 
