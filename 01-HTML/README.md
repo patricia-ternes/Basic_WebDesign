@@ -35,6 +35,7 @@ For example, the HTML code
 ```
 <h1> This is a main heading </h1>
 <h2> This is a subheading </h2>
+
 ------
 #### Paragraph
 
