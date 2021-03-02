@@ -68,7 +68,7 @@ HTML5 introduces new HTML tags that improve the structure and the readability of
 Anchor elements are used to link content to the page.
 
 * Anchor tag: `<a href="url_location">this links to some url</a>`
-* href atribute: destination web address
+* href attribute: destination web address
 
 For example, the HTML code
 ```html
@@ -79,19 +79,19 @@ Generates the following visualization:
 
 Anchor tags can link contents inside the same page. In this case is necessary:
 
-1. Include an identification atribute (`id`) in the desired element;
-2. Use the `href` atributte fallowed by a `#` and the `id` in the `<a>` tag to link the element;
+1. Include an identification attribute (`id`) in the desired element;
+2. Use the `href` attribute fallowed by a `#` and the `id` in the `<a>` tag to link the element;
 
 For example, the HTML code
 ```html
-<p id='paragraphy-to-link'> This paragraphy can be linked internaly </p>
+<p id='paragraph-to-link'> This paragraph can be linked internally </p>
 
-<a href="#paragraphy-to-link">this links to the previous paragraphy.</a>
+<a href="#paragraph-to-link">this links to the previous paragraph.</a>
 ```
 Generates the following visualization:
-<p id='paragraphy-to-link'> This paragraphy can be linked internaly </p>
+<p id='paragraphy-to-link'> This paragraph can be linked internally </p>
 
-<a href="#paragraphy-to-link">this links to the previous paragraphy.</a>
+<a href="#paragraphy-to-link">this links to the previous paragraph.</a>
 
 
 #### Image
@@ -145,6 +145,33 @@ Generates the following visualization:
     <li>last item</li>
 </ol>
 
+#### Division Element
+
+Division tags are used to nest different HTML elements in just one container.
+
+* Division tag: `<div>` and `</div>`
+
+For example, the HTML code
+```html
+<div id="ordered-list">   
+    <ol>
+        <li>first item</li>
+        <li>second item</li>
+        <li>last item</li>
+    </ol>
+</div>
+```
+Generates the following visualization:
+<div id="ordered-list">  
+    <ol>
+        <li>first item</li>
+        <li>second item</li>
+        <li>last item</li>
+    </ol>
+</div>
+
+
+<!-- para criar formularios
 #### Text Field
 * Text field tag: `<input type="text">`
 * Placeholder atribute: text to display in the text field element.
@@ -156,6 +183,7 @@ For example, the HTML code
 ```
 Generates the following visualization:
 <input type="text" placeholder="type your name">
+-->
 
 <h4>Footer</h4>
 <h4>nav</h4>
