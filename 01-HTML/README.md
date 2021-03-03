@@ -134,7 +134,7 @@ For example, the HTML code
 ```
 Generates the following visualization
 
-<img src="https://bit.ly/3sNs7V7" alt="Female software engineer with projected code." width="200" style="border-radius:50;">
+<img src="https://bit.ly/3sNs7V7" alt="Female software engineer with projected code." width="400" style="border-color:green;border-width:10px;border-style: solid;">
 
 ------
 #### Unordered List
