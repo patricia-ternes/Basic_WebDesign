@@ -130,11 +130,13 @@ Generates the following visualization:
 For example, the HTML code
 
 ```html
-<img src="https://bit.ly/3sNs7V7" alt="Female software engineer with projected code." width="100" style="border-radius:10;>
+<img src="https://bit.ly/3sNs7V7" alt="Female software engineer with projected code." width="400">
 ```
 Generates the following visualization
 
-<img src="https://bit.ly/3sNs7V7" alt="Female software engineer with projected code." width="400" style="border-color:green;border-width:10px;border-style: solid;">
+<img src="https://bit.ly/3sNs7V7" alt="Female software engineer with projected code." width="400">
+
+*image from [Unsplash](https://unsplash.com/).*
 
 ------
 #### Unordered List
