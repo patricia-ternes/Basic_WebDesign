@@ -65,7 +65,7 @@ For example
 <h1> This is a heading without attributes. </h1>
 
 <h1 id="main-title" class="red-text" style="font-size:20px"> 
-    This is a main heading with an id, a class and a style attributes.
+    This is a heading with an id, a class and a style attributes.
 </h1>
 ```
 
