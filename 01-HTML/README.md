@@ -73,7 +73,9 @@ Generates the following visualization:
 <h1> This is a main heading </h1>
 <h2> This is a subheading </h2>
 
+<br/><br/>
 [*summary*](#common-body-elements)
+
 ### Paragraph
 
 * Paragraph tag: `<p>` and `</p>`
