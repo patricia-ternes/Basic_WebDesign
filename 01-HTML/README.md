@@ -38,7 +38,7 @@ This repository is under construction!
 * [header, main, footer, and sections](#layout-elements)
 * form, input, radio, and checkbox
 
-### Common `head` elements:
+<h3 id="head-elements"> Common `head` elements: </h3>
 * title (required)
 * style
 * meta
@@ -72,6 +72,8 @@ Generates the following visualization:
 
 <h1> This is a main heading </h1>
 <h2> This is a subheading </h2>
+
+<a href="#head-elements"><p style='text-align: right;'> Your Text </p></a>
 
 ### Paragraph
 
