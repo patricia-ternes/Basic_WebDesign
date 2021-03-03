@@ -66,7 +66,7 @@ To use the external font it is necessary to:
 1. Import the desired font using a `link` element. Usually the external source provides the correct link to use.
 2. Set the `font-family` attribute
 
-For example, for the (*Bad Script*)[https://fonts.google.com/specimen/Bad+Script?preview.text_type=custom] font family:
+For example, for the [*Bad Script*](https://fonts.google.com/specimen/Bad+Script?preview.text_type=custom) font family:
 ```css
 <link rel="preconnect" href="https://fonts.gstatic.com">
 <link href="https://fonts.googleapis.com/css2?family=Bad+Script" rel="stylesheet">
