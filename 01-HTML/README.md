@@ -53,6 +53,22 @@ Most elements have opening and closing tags. Usually a tag has the following str
 * Opening tag: `<element>`
 * Closing tag: `</element>`
 
+HTML elements can have attributes like:
+
+* `id` attribute: specify a unique id for an HTML element.
+* `class` attribute: specify a class (multiple `style` attributes defined in the `head` section or in an external CSS file) for an HTML element.
+* `style` *inline* attribute: uses a inline CSS to apply a style for an HTML element.
+
+For example
+
+```html
+<h1> This is a heading without attributes. </h1>
+
+<h1 id="main-title" class="red-text" style="font-size:20px"> 
+    This is a main heading with an id, a class and a style attributes.
+</h1>
+```
+
 ### Headings
 
 * Main heading (h1) tag: `<h1>` and `</h1>`
