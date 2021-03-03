@@ -73,7 +73,7 @@ Generates the following visualization:
 <h1> This is a main heading </h1>
 <h2> This is a subheading </h2>
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [top](#hypertext-markup-language---html)
+[*summary*](#common-`body`-elements:)
 ### Paragraph
 
 * Paragraph tag: `<p>` and `</p>`
