@@ -36,6 +36,7 @@ This repository is under construction!
 * [ordered list](#ordered-list)
 * [division](#division-element)
 * [header, main, footer, and sections](#layout-elements)
+* form, input, radio, and checkbox
 
 ### Common `head` elements:
 * title (required)
@@ -229,9 +230,8 @@ There are others semantics elements to define different parts of the HTML: `arti
 
 You can find detailed information about HTML Semantics in the [w3schools](https://www.w3schools.com/html/html5_semantic_elements.asp) site.
 
-
-
 <!-- para criar formularios
+### Form element
 #### Text Field
 * Text field tag: `<input type="text">`
 * Placeholder atribute: text to display in the text field element.
