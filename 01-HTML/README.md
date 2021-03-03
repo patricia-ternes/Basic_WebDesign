@@ -73,7 +73,10 @@ Generates the following visualization:
 <h1> This is a main heading </h1>
 <h2> This is a subheading </h2>
 
-<br/><br/>
+<br/><br/><br/>
+[*summary*](#common-body-elements)
+
+<br/><br/><br/>
 [*summary*](#common-body-elements)
 
 ### Paragraph
@@ -84,6 +87,9 @@ Generates the following visualization:
 <p> This is a paragraph </p>
 ```
 
+<br/><br/><br/>
+[*summary*](#common-body-elements)
+
 ### Comment
 
 * Opening tag: &lt;!--
@@ -92,6 +98,9 @@ Generates the following visualization:
 ```html
 <!-- This is a comment -->
 ```
+
+<br/><br/><br/>
+[*summary*](#common-body-elements)
 
 ### Anchor Elements
 Anchor elements are used to link content to the page.
@@ -122,6 +131,9 @@ Generates the following visualization:
 
 <a href="#paragraphy-to-link">this links to the previous paragraph.</a>
 
+<br/><br/><br/>
+[*summary*](#common-body-elements)
+
 ### Image
 
 * Image tag: `<img src="file/complete/path/or/url" alt="Image description">`
@@ -139,6 +151,9 @@ Generates the following visualization
 <img src="https://bit.ly/3sNs7V7" alt="Female software engineer with projected code." width="400">
 
 *(image from [Unsplash](https://unsplash.com/)).*
+
+<br/><br/><br/>
+[*summary*](#common-body-elements)
 
 ### Unordered List
 * Unordered list tag: `<ul>` and `</ul>`
@@ -159,6 +174,9 @@ Generates the following visualization:
     <li>last item</li>
 </ul>
 
+<br/><br/><br/>
+[*summary*](#common-body-elements)
+
 ### Ordered List
 * Ordered list tag: `<ol>` and `</ol>`
 * List item tag: `<li>` and `<\li>`
@@ -177,6 +195,9 @@ Generates the following visualization:
     <li>second item</li>
     <li>last item</li>
 </ol>
+
+<br/><br/><br/>
+[*summary*](#common-body-elements)
 
 ### Division Element
 
@@ -204,6 +225,9 @@ Generates the following visualization:
 </div>
 
 Note that in terms of visualization, the `div` tag has not changed anything. The purpose of the tag is to improve the code's readability and to allow future style improvements.
+
+<br/><br/><br/>
+[*summary*](#common-body-elements)
 
 ### Layout Elements
 To further improve the code's readability, is recommended that each HTML body be divided into 3 parts: header, main, and footer.
@@ -234,6 +258,9 @@ There are others semantics elements to define different parts of the HTML: `arti
 You can find detailed information about HTML Semantics in the [w3schools](https://www.w3schools.com/html/html5_semantic_elements.asp) site.
 
 <!-- para criar formularios
+<br/><br/><br/>
+[*summary*](#common-body-elements)
+
 ### Form element
 #### Text Field
 * Text field tag: `<input type="text">`
