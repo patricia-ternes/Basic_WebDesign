@@ -38,8 +38,9 @@ This repository is under construction!
 
 ### Common `body` elements:
 * [headings](#headings)
-* paragraph
-* anchor
+* [paragraph](#paragraph)
+* [comment](#comment)
+* [anchor](#anchor-elements)
 * image
 * unordered list
 * ordered list
@@ -53,13 +54,12 @@ Most elements have opening and closing tags. Usually a tag has the following str
 * Opening tag: `<element>`
 * Closing tag: `</element>`
 
-#### Headings
+### Headings
 
 * Main heading (h1) tag: `<h1>` and `</h1>`
 * Subheading (h2) tag: `<h2>` and `</h2>`
 * Other heading levels: h3, h4, h5 and h6
 
-------
 For example, the HTML code
 
 ```html
@@ -74,9 +74,7 @@ Generates the following visualization:
 <h1> This is a main heading </h1>
 <h2> This is a subheading </h2>
 
-------
-
-#### Paragraph
+### Paragraph
 
 * Paragraph tag: `<p>` and `</p>`
 
@@ -84,8 +82,7 @@ Generates the following visualization:
 <p> This is a paragraph </p>
 ```
 
-------
-#### Comment
+### Comment
 
 * Opening tag: &lt;!--
 * Closing tag: `-->`
@@ -94,11 +91,7 @@ Generates the following visualization:
 <!-- This is a comment -->
 ```
 
-### HTML5 Elements
-HTML5 introduces new HTML tags that improve the structure and the readability of the HTML.
-
-------
-#### Anchor Elements
+### Anchor Elements
 Anchor elements are used to link content to the page.
 
 * Anchor tag: `<a href="url_location">this links to some url</a>`
@@ -127,19 +120,20 @@ Generates the following visualization:
 
 <a href="#paragraphy-to-link">this links to the previous paragraph.</a>
 
-------
-#### Image
+### Image
 
 * Image tag: `<img src="file/complete/path/or/url" alt="Image description">`
+* Image required attributes: `src` (image path) and `alt` (image description).
 * Important: image tag is self-closing.
+* Image additional attributes: height, width, usemap, style (and others!)
 
 For example, the HTML code
 
 ```html
-<img src="https://bit.ly/3sNs7V7" alt="Female software engineer with projected code.">
+<img src="https://bit.ly/3sNs7V7" alt="Female software engineer with projected code." width="100" style="border-radius:10;>
 ```
 Generates the following visualization
-<img src="https://bit.ly/3sNs7V7" alt="Female software engineer with projected code.">
+<img src="https://bit.ly/3sNs7V7" alt="Female software engineer with projected code." width="100" style="border-radius:10;">
 
 ------
 #### Unordered List
@@ -233,15 +227,11 @@ The basic `body` code:
 </body>
 ```
 
-There are others semantics elements to define different parts of the HTML: `article`, `aside`, `details`, `figcaption`, `figure`, `footer`, `header`, `main`, `mark`, `nav`, `section`, `summary`, `time`. These elements are organized as outlined in the image below.
+There are others semantics elements to define different parts of the HTML: `article`, `aside`, `details`, `figcaption`, `figure`, `footer`, `header`, `main`, `mark`, `nav`, `section`, `summary`, `time`. These elements are organized as outlined in the image (*from [w3schools](https://www.w3schools.com/html/html5_semantic_elements.asp)*) below.
+
 <a href="https://www.w3schools.com/html/html5_semantic_elements.asp"><img src="https://www.w3schools.com/html/img_sem_elements.gif" alt="HTML Semantics elements. Image from w3schools site" style="width: 50px;"></a>
 
 You can find detailed information about HTML Semantics in the [w3schools](https://www.w3schools.com/html/html5_semantic_elements.asp) site.
-
-
-
-------
-#### Header
 
 
 
@@ -258,12 +248,6 @@ For example, the HTML code
 Generates the following visualization:
 <input type="text" placeholder="type your name">
 -->
-
-<h4>Footer</h4>
-<h4>nav</h4>
-<h4>video</h4>
-<h4>article</h4>
-<h4>section</h4>
 
 
 <!--
