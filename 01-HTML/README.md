@@ -74,10 +74,7 @@ Generates the following visualization:
 <h2> This is a subheading </h2>
 
 <br/><br/><br/>
-[*summary*](#common-body-elements)
-
-<br/><br/><br/>
-[*summary*](#common-body-elements)
+[*Back to top*](#common-body-elements)
 
 ### Paragraph
 
@@ -88,7 +85,7 @@ Generates the following visualization:
 ```
 
 <br/><br/><br/>
-[*summary*](#common-body-elements)
+[*Back to top*](#common-body-elements)
 
 ### Comment
 
@@ -100,7 +97,7 @@ Generates the following visualization:
 ```
 
 <br/><br/><br/>
-[*summary*](#common-body-elements)
+[*Back to top*](#common-body-elements)
 
 ### Anchor Elements
 Anchor elements are used to link content to the page.
@@ -132,7 +129,7 @@ Generates the following visualization:
 <a href="#paragraphy-to-link">this links to the previous paragraph.</a>
 
 <br/><br/><br/>
-[*summary*](#common-body-elements)
+[*Back to top*](#common-body-elements)
 
 ### Image
 
@@ -153,7 +150,7 @@ Generates the following visualization
 *(image from [Unsplash](https://unsplash.com/)).*
 
 <br/><br/><br/>
-[*summary*](#common-body-elements)
+[*Back to top*](#common-body-elements)
 
 ### Unordered List
 * Unordered list tag: `<ul>` and `</ul>`
@@ -175,7 +172,7 @@ Generates the following visualization:
 </ul>
 
 <br/><br/><br/>
-[*summary*](#common-body-elements)
+[*Back to top*](#common-body-elements)
 
 ### Ordered List
 * Ordered list tag: `<ol>` and `</ol>`
@@ -197,7 +194,7 @@ Generates the following visualization:
 </ol>
 
 <br/><br/><br/>
-[*summary*](#common-body-elements)
+[*Back to top*](#common-body-elements)
 
 ### Division Element
 
@@ -227,7 +224,7 @@ Generates the following visualization:
 Note that in terms of visualization, the `div` tag has not changed anything. The purpose of the tag is to improve the code's readability and to allow future style improvements.
 
 <br/><br/><br/>
-[*summary*](#common-body-elements)
+[*Back to top*](#common-body-elements)
 
 ### Layout Elements
 To further improve the code's readability, is recommended that each HTML body be divided into 3 parts: header, main, and footer.
@@ -259,7 +256,7 @@ You can find detailed information about HTML Semantics in the [w3schools](https:
 
 <!-- para criar formularios
 <br/><br/><br/>
-[*summary*](#common-body-elements)
+[*Back to top*](#common-body-elements)
 
 ### Form element
 #### Text Field
