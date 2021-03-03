@@ -66,7 +66,7 @@ To use the external font it is necessary to:
 1. Import the desired font using a `link` element. Usually the external source provides the correct link to use.
 2. Set the `font-family` attribute
 
-For example, for the [*Bad Script*](https://fonts.google.com/specimen/Bad+Script?preview.text_type=custom) font family:
+For example, for the [*Bad Script*](https://fonts.google.com/specimen/Bad+Script?preview.text_type=custom) font:
 ```css
 <link rel="preconnect" href="https://fonts.gstatic.com">
 <link href="https://fonts.googleapis.com/css2?family=Bad+Script" rel="stylesheet">
@@ -92,7 +92,7 @@ font-family: "Courier New";
 ```
 
 ### Font Degrade
-Sometimes the external font can not be used by the browser (even the *universal fonts*), so it is recommended to provide other possibilities to the browser know what to do in this case. The last font should be a generic one.
+Sometimes the font can not be used by the browser (even the *universal fonts*), so it is recommended to provide other possibilities to the browser know what to do in this case. The last font should be a generic one.
 ```css
 font-family: "Bad Script", "Brush Script MT", cursive;
 ```
@@ -103,9 +103,9 @@ Attribute to set the font size. Can be set in different ways:
 
 * Pixel: `font-size: 40px;`
 * Em: `font-size: 2.5em;`
-    * Default size: `1em` = `16px`, so 2.5em = 40px.
+    * Default size: `1em = 16px`, so `2.5em = 40px`.
 * Viewport width (vw): `font-size:10vw;`
-    * 100vw = 100% of viewport width
+    * `100vw = 100%` of viewport width
 
 
 ## CSS Selectors
@@ -114,8 +114,13 @@ To understand how to select and change the style in different ways, consider the
 ```html
 <h2 id="first-heading" class="centre"> First title</h2>
 
-<h2 id="second-heading"  class="centre-blue"> Second heading</h2>
+<h2 id="second-heading"  class="centre-blue"> Second title</h2>
+
+<h2 id="third-heading"  class="centre-blue"> Third title</h2>
 ```
+
+This code has three titles with the same importance level in the text, so all three have the same `element` value. Each title has a specific `id`. The second and the third title have the same `class`, but the first has a unique `class`.
+
 
 ### Element Selector
 Used to apply one style for a specific element. All entry of this element will receive this style. The general format is:
@@ -155,19 +160,15 @@ Used to select all elements set with the same `class`. The general format is (no
 }
 ```
 
-For example:
+For example, to apply a blue colour and to centralize the second and third titles:
 ```css
-.centre {
-    text-align: center;
-}
-
 .centre-blue {
     text-align: center;
     color: blue;
 }
 ```
 ### `*` Universal Selector
-Used to select and apply the same style to all elements.
+Used to select and apply the same style to all elements. For example, to apply a blue colour and to centralize all titles:
 
 ```css
 * {
@@ -186,7 +187,7 @@ h1, h2, p {
 ```
 
 ### Nested Selector
-Used to set one style for the element that has a combination of identification.
+Used to set one style for the element that has a combination of identification. For example, if the element is `<h2>` and the class is `centre-blue`, than the text should be violet and centralized.
 
 ```css
 h2.centre-blue{
