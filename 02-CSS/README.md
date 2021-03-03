@@ -117,6 +117,8 @@ To understand how to select and change the style in different ways, consider the
 <h2 id="second-heading"  class="centre-blue"> Second title</h2>
 
 <h2 id="third-heading"  class="centre-blue"> Third title</h2>
+
+<p class="centre"> This is a paragraph </p>
 ```
 
 This code has three titles with the same importance level in the text, so all three have the same `element` value. Each title has a specific `id`. The second and the third title have the same `class`, but the first has a unique `class`.
@@ -136,6 +138,13 @@ h2 {
     color: red;
 }
 ```
+
+For example, to apply a blue colour in all `<p>` text.
+```css
+p {
+    color: blue;
+}
+``` 
 
 ### `id` Selector
 Used to select just the element set with the same `id`. The general format is (note the `#`):
@@ -167,8 +176,17 @@ For example, to apply a blue colour and to centralize the second and third title
     color: blue;
 }
 ```
+
+For example, to centralize the first title and the paragraph:
+```css
+.centre {
+    text-align: center;
+}
+```
+
+
 ### `*` Universal Selector
-Used to select and apply the same style to all elements. For example, to apply a blue colour and to centralize all titles:
+Used to select and apply the same style to all elements. For example, to apply a blue colour and to centralize all titles and the paragraph:
 
 ```css
 * {
@@ -178,9 +196,9 @@ Used to select and apply the same style to all elements. For example, to apply a
 ```
 
 ### Grouping Selector
-Used to set the same style to different elements.
+Used to set the same style to different elements. For example:
 ```css
-h1, h2, p {
+h2, p {
     text-align: center;
     color: blue;
 }
@@ -195,3 +213,11 @@ h2.centre-blue{
     text-align: center;
 }
 ```
+This code affect the second and the third titles. Other example:
+```css
+h2.centre{
+    color:violet
+    text-align: center;
+}
+```
+This code affect just the first title, even if the paragraph has the same class.
