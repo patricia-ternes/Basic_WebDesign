@@ -133,7 +133,8 @@ For example, the HTML code
 <img src="https://bit.ly/3sNs7V7" alt="Female software engineer with projected code." width="100" style="border-radius:10;>
 ```
 Generates the following visualization
-<img src="https://bit.ly/3sNs7V7" alt="Female software engineer with projected code." width="100" style="border-radius:10;">
+
+<img src="https://bit.ly/3sNs7V7" alt="Female software engineer with projected code." width="200" style="border-radius:50;">
 
 ------
 #### Unordered List
