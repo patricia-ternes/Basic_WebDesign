@@ -26,6 +26,16 @@ This repository is under construction!
 
 </html>
 ```
+### Common `body` elements:
+* [headings](#headings)
+* [paragraph](#paragraph)
+* [comment](#comment)
+* [anchor](#anchor-elements)
+* [image](#image)
+* [unordered list](#unordered-list)
+* [ordered list](#ordered-list)
+* [division](#division-element)
+* [header, main, footer, and sections](#layout-elements)
 
 ### Common `head` elements:
 * title (required)
@@ -35,18 +45,6 @@ This repository is under construction!
 * link
 * script
 * noscript
-
-### Common `body` elements:
-* [headings](#headings)
-* [paragraph](#paragraph)
-* [comment](#comment)
-* [anchor](#anchor-elements)
-* image
-* unordered list
-* ordered list
-* list item
-* division
-* header, main, footer, and sections
 
 ## Elements
 Most elements have opening and closing tags. Usually a tag has the following structure:
@@ -136,10 +134,9 @@ Generates the following visualization
 
 <img src="https://bit.ly/3sNs7V7" alt="Female software engineer with projected code." width="400">
 
-*image from [Unsplash](https://unsplash.com/).*
+*(image from [Unsplash](https://unsplash.com/)).*
 
-------
-#### Unordered List
+### Unordered List
 * Unordered list tag: `<ul>` and `</ul>`
 * List item tag: `<li>` and `<\li>`
 
@@ -158,8 +155,7 @@ Generates the following visualization:
     <li>last item</li>
 </ul>
 
-------
-#### Ordered List
+### Ordered List
 * Ordered list tag: `<ol>` and `</ol>`
 * List item tag: `<li>` and `<\li>`
 
@@ -178,8 +174,7 @@ Generates the following visualization:
     <li>last item</li>
 </ol>
 
-------
-#### Division Element
+### Division Element
 
 Division tags are used to nest different HTML elements in just one container.
 
@@ -206,9 +201,7 @@ Generates the following visualization:
 
 Note that in terms of visualization, the `div` tag has not changed anything. The purpose of the tag is to improve the code's readability and to allow future style improvements.
 
-
-------
-#### Layout Elements
+### Layout Elements
 To further improve the code's readability, is recommended that each HTML body be divided into 3 parts: header, main, and footer.
 
 * Main tag: `<main>` and `</main>`
