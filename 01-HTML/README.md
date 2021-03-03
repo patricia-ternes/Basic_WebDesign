@@ -41,10 +41,10 @@ This repository is under construction!
 * paragraph
 * anchor
 * image
-* division
 * unordered list
 * ordered list
 * list item
+* division
 * header, main, footer, and sections
 
 ## Elements
@@ -96,21 +96,6 @@ Generates the following visualization:
 
 ### HTML5 Elements
 HTML5 introduces new HTML tags that improve the structure and the readability of the HTML.
-
-------
-#### Main
-
-* Main tag: `<main>` and `</main>`
-
-```html
-<main>
-    The main content of the HTML page should be placed within a main tag.
-</main>
-```
-------
-#### Header
-
-* Main tag: `<header>` and `</header>`
 
 ------
 #### Anchor Elements
@@ -223,7 +208,43 @@ Generates the following visualization:
 </div>
 
 Note that in terms of visualization, the `div` tag has not changed anything. The purpose of the tag is to improve the code's readability and to allow future style improvements.
+
+
 ------
+#### Layout Elements
+To further improve the code's readability, is recommended that each HTML body be divided into 3 parts: header, main, and footer.
+
+* Main tag: `<main>` and `</main>`
+* Header tag: `<header>` and `</header>`
+* Footer tag: `<footer>` and `</footer>`
+
+The basic `body` code:
+```html
+<body>
+    <header>
+        Header content. This tag replace the <div class="header"> tag.
+    </header>
+    <main>
+        The main content of the HTML page should be placed within a main tag.
+    </main>
+    <footer>
+        Footer content. This tag replace the <div class="footer"> tag.
+    </footer>
+</body>
+```
+
+There are others semantics elements to define different parts of the HTML: `article`, `aside`, `details`, `figcaption`, `figure`, `footer`, `header`, `main`, `mark`, `nav`, `section`, `summary`, `time`. These elements are organized as outlined in the image below.
+<a href="https://www.w3schools.com/html/html5_semantic_elements.asp"><img src="https://www.w3schools.com/html/img_sem_elements.gif" alt="HTML Semantics elements. Image from w3schools site" style="width: 50px;"></a>
+
+You can find detailed information about HTML Semantics in the [w3schools](https://www.w3schools.com/html/html5_semantic_elements.asp) site.
+
+
+
+------
+#### Header
+
+
+
 <!-- para criar formularios
 #### Text Field
 * Text field tag: `<input type="text">`
