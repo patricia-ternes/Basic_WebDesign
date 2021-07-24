@@ -41,8 +41,6 @@ In this page you will find basic informations about HTML.
 <!-- /MarkdownTOC -->
 </details>
 
-aa
-
 <a id="general-structure-of-an-html-page"></a>
 ## General structure of an HTML page
 ```html
@@ -177,7 +175,7 @@ Anchor elements are used to link content to the page.
 ### Image
 
 * Image tag: `<img src="file/complete/path/or/url" alt="Image description">`
-* Image required attributes: `src` (image path) and `alt` (image description).
+* Image required attributes: `src` (image path or url) and `alt` (image description).
 * Important: image tag is self-closing.
 * Image additional attributes: height, width, usemap, style (and others!)
 
