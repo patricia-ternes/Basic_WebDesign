@@ -41,6 +41,8 @@ In this page you will find basic informations about HTML.
 <!-- /MarkdownTOC -->
 </details>
 
+aa
+
 <a id="general-structure-of-an-html-page"></a>
 ## General structure of an HTML page
 ```html
@@ -137,8 +139,7 @@ For example
 <a id="comment"></a>
 ### Comment
 
-* Opening tag: &lt;!--
-* Closing tag: `-->`
+* Comment tag:  `&lt;!--` and `-->`
 
 ```html
 <!-- This is a comment -->
