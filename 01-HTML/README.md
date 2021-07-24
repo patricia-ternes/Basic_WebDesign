@@ -205,7 +205,6 @@ Anchor elements are used to link content to the page.
 * Ordered list tag: `<ol>` and `</ol>`
 * List item tag: `<li>` and `<\li>`
 
-For example, the HTML code
 ```html
 <ol>
     <li>first item</li>
@@ -213,12 +212,6 @@ For example, the HTML code
     <li>last item</li>
 </ol>
 ```
-Generates the following visualization:
-<ol>
-    <li>first item</li>
-    <li>second item</li>
-    <li>last item</li>
-</ol>
 
 <br/><br/><br/>
 <a href="#logo"> *Back to top* </a>
