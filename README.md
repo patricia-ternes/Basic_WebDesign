@@ -8,6 +8,15 @@
         <img src="https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555&logoColor=99F4FB" /></a>
 </p>
 
+<!-- PROJECT LOGO -->
+<br />
+<p align="center">
+    <a href="#important">
+        <img src="inputs/icons/001-ui-design.png" alt="Logo" height="80" id="logo">
+    </a>
+    <h1 align="center"> Basic Web Design Documentation </h1>
+</p>
+
 # Basic Web Design Projects
 
 In this repository you will find basic informations about HTML and CSS.
