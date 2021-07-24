@@ -11,17 +11,16 @@
 In this page you will find basic informations about HTML.
 
 <a id="important"></a>
-## Important
+**Important**
 
 * This repository is under construction!
 * <div>Icons made by <a href="https://www.freepik.com" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
 
----
+
 ---
 
 <details open="open" id="toc">
     <summary>Table of Contents</summary>
-<p>
 <!-- MarkdownTOC -->
 
 1. [General structure of an HTML page](#general-structure-of-an-html-page)
@@ -41,7 +40,6 @@ In this page you will find basic informations about HTML.
         1. [Text Field](#text-field)
 
 <!-- /MarkdownTOC -->
-</p>
 </details>
 
 <a id="general-structure-of-an-html-page"></a>
