@@ -189,7 +189,6 @@ Anchor elements are used to link content to the page.
 * Unordered list tag: `<ul>` and `</ul>`
 * List item tag: `<li>` and `<\li>`
 
-For example, the HTML code
 ```html
 <ul>
     <li>first item</li>
@@ -197,12 +196,6 @@ For example, the HTML code
     <li>last item</li>
 </ul>
 ```
-Generates the following visualization:
-<ul>
-    <li>first item</li>
-    <li>second item</li>
-    <li>last item</li>
-</ul>
 
 <br/><br/><br/>
 <a href="#logo"> *Back to top* </a>
