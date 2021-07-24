@@ -21,6 +21,7 @@ In this page you will find basic informations about HTML.
 
 <details open="open" id="toc">
     <summary>Table of Contents</summary>
+<p>
 <!-- MarkdownTOC -->
 
 1. [General structure of an HTML page](#general-structure-of-an-html-page)
@@ -40,6 +41,7 @@ In this page you will find basic informations about HTML.
         1. [Text Field](#text-field)
 
 <!-- /MarkdownTOC -->
+</p>
 </details>
 
 <a id="general-structure-of-an-html-page"></a>
