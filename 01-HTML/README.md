@@ -181,16 +181,10 @@ Anchor elements are used to link content to the page.
 * Important: image tag is self-closing.
 * Image additional attributes: height, width, usemap, style (and others!)
 
-For example, the HTML code
-
 ```html
-<img src="https://bit.ly/3sNs7V7" alt="Female software engineer with projected code." width="400">
+<img src="../inputs/icons/005-html.png" alt="Logo" height="80" id="logo">
 ```
-Generates the following visualization
 
-<img src="https://bit.ly/3sNs7V7" alt="Female software engineer with projected code." width="400">
-
-*(image from [Unsplash](https://unsplash.com/)).*
 
 <br/><br/><br/>
 <a href="#logo"> *Back to top* </a>
