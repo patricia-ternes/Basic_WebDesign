@@ -1,7 +1,7 @@
 <!-- PROJECT LOGO -->
 <br />
 <p align="center">
-    <a href="https://github.com/patricia-ternes/Basic_WebDesign_Projects/01-HTML/#important">
+    <a href="#important">
         <img src="../inputs/icons/005-html.png" alt="Logo" height="80">
     </a>
     <h1 align="center"> Hypertext Markup Language - HTML </h1>
