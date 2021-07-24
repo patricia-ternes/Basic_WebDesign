@@ -7,6 +7,15 @@
     <h1 align="center"> Hypertext Markup Language - HTML </h1>
 </p>
 
+<a id="general-information"></a>
+## General Information
+In this page you will find basic informations about HTML.
+
+<a id="important"></a>
+## Important
+
+* This repository is under construction!
+* <div>Icons made by <a href="https://www.freepik.com" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
 
 <details open="open">
 <!-- MarkdownTOC -->
