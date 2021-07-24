@@ -7,7 +7,7 @@
     <h1 align="center"> Hypertext Markup Language - HTML </h1>
 </p>
 
-
+    
 In this page you will find basic informations about HTML.
 
 <a id="important"></a>
@@ -18,7 +18,7 @@ In this page you will find basic informations about HTML.
 
 ---
 ---
-
+## Table of Contents
 <details open="open" id="toc">
 <!-- MarkdownTOC -->
 
