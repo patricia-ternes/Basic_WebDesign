@@ -139,7 +139,7 @@ For example
 <a id="comment"></a>
 ### Comment
 
-* Comment tag:  &lt;!-- `<--` and `-->`
+* Comment tag: `<--` and `-->`
 
 ```html
 <!-- This is a comment -->
