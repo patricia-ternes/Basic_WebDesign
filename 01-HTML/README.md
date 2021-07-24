@@ -11,8 +11,6 @@
 <details open="open">
 <!-- MarkdownTOC -->
 
-1. [General Information](#general-information)
-1. [Important](#important)
 1. [General structure of an HTML page](#general-structure-of-an-html-page)
     1. [Common `body` elements:](#common-body-elements)
     1. [Common `head` elements:](#common-head-elements)
@@ -31,16 +29,6 @@
 
 <!-- /MarkdownTOC -->
 </details>
-
-<a id="general-information"></a>
-## General Information
-In this page you will find basic informations about HTML.
-
-<a id="important"></a>
-## Important
-
-* This repository is under construction!
-* <div>Icons made by <a href="https://www.freepik.com" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
 
 <a id="general-structure-of-an-html-page"></a>
 ## General structure of an HTML page
