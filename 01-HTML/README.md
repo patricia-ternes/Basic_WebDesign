@@ -1,7 +1,7 @@
 <!-- PROJECT LOGO -->
 <br />
 <p align="center">
-    <a href="https://github.com/patricia-ternes/Basic_WebDesign_Projects/01-HTML">
+    <a href="https://github.com/patricia-ternes/Basic_WebDesign_Projects/01-HTML/#important">
         <img src="../inputs/icons/005-html.png" alt="Logo" height="80">
     </a>
     <h1 align="center"> Hypertext Markup Language - HTML </h1>
@@ -40,8 +40,8 @@ In this page you will find basic informations about HTML.
 <a id="important"></a>
 ## Important
 
-This repository is under construction!
-
+* This repository is under construction!
+* <div>Icons made by <a href="https://www.freepik.com" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
 <!--
 <a id="introduction"></a>
 ## Introduction
