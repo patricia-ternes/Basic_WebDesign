@@ -19,7 +19,7 @@ In this page you will find basic informations about HTML.
 
 ---
 
-<details open="open">
+<details open="open" id="begining">
 <!-- MarkdownTOC -->
 
 1. [General structure of an HTML page](#general-structure-of-an-html-page)
@@ -114,18 +114,15 @@ For example, the HTML code
 
 ```html
 <h1> This is a main heading </h1>
-```
 
-```html
 <h2> This is a subheading </h2>
 ```
-Generates the following visualization:
 
-<h1> This is a main heading </h1>
-<h2> This is a subheading </h2>
 
 <br/><br/><br/>
 [*Back to top*](#common-body-elements)
+
+<a href="#begining"> *Back to top* </a>
 
 <a id="paragraph"></a>
 ### Paragraph
