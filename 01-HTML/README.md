@@ -2,7 +2,7 @@
 <br />
 <p align="center">
     <a href="#important">
-        <img src="../inputs/icons/005-html.png" alt="Logo" height="80">
+        <img src="../inputs/icons/005-html.png" alt="Logo" height="80" id="logo">
     </a>
     <h1 align="center"> Hypertext Markup Language - HTML </h1>
 </p>
@@ -122,7 +122,7 @@ For example, the HTML code
 <br/><br/><br/>
 [*Back to top*](#common-body-elements)
 
-<a href="#begining"> *Back to top* </a>
+<a href="#logo"> *Back to top* </a>
 
 <a id="paragraph"></a>
 ### Paragraph
