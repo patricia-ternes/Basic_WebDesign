@@ -1,16 +1,53 @@
-# Hypertext Markup Language - HTML
+<!-- PROJECT LOGO -->
+<br />
+<p align="center">
+    <a href="https://github.com/patricia-ternes/Basic_WebDesign_Projects">
+        <img src="../inputs/icons/005-html.png" alt="Logo" height="80">
+    </a>
+    <h1 align="center"> Hypertext Markup Language - HTML </h1>
+</p>
 
+
+<details open="open">
+<!-- MarkdownTOC -->
+
+1. [General Information](#general-information)
+1. [Important](#important)
+1. [Introduction](#introduction)
+1. [General structure of an HTML page](#general-structure-of-an-html-page)
+    1. [Common `body` elements:](#common-body-elements)
+    1. [Common `head` elements:](#common-head-elements)
+1. [Elements](#elements)
+    1. [Headings](#headings)
+    1. [Paragraph](#paragraph)
+    1. [Comment](#comment)
+    1. [Anchor Elements](#anchor-elements)
+    1. [Image](#image)
+    1. [Unordered List](#unordered-list)
+    1. [Ordered List](#ordered-list)
+    1. [Division Element](#division-element)
+    1. [Layout Elements](#layout-elements)
+    1. [Form element](#form-element)
+        1. [Text Field](#text-field)
+
+<!-- /MarkdownTOC -->
+</details>
+
+<a id="general-information"></a>
 ## General Information
 In this page you will find basic informations about HTML.
 
+<a id="important"></a>
 ## Important
 
 This repository is under construction!
 
 <!--
+<a id="introduction"></a>
 ## Introduction
 -->
 
+<a id="general-structure-of-an-html-page"></a>
 ## General structure of an HTML page
 ```html
 <!DOCTYPE html>
@@ -26,6 +63,7 @@ This repository is under construction!
 
 </html>
 ```
+<a id="common-body-elements"></a>
 ### Common `body` elements:
 * [headings](#headings)
 * [paragraph](#paragraph)
@@ -38,6 +76,7 @@ This repository is under construction!
 * [header, main, footer, and sections](#layout-elements)
 * form, input, radio, and checkbox
 
+<a id="common-head-elements"></a>
 ### Common `head` elements:
 * title (required)
 * style
@@ -47,6 +86,7 @@ This repository is under construction!
 * script
 * noscript
 
+<a id="elements"></a>
 ## Elements
 Most elements have opening and closing tags. Usually a tag has the following structure:
 
@@ -69,6 +109,7 @@ For example
 </h1>
 ```
 
+<a id="headings"></a>
 ### Headings
 
 * Main heading (h1) tag: `<h1>` and `</h1>`
@@ -92,6 +133,7 @@ Generates the following visualization:
 <br/><br/><br/>
 [*Back to top*](#common-body-elements)
 
+<a id="paragraph"></a>
 ### Paragraph
 
 * Paragraph tag: `<p>` and `</p>`
@@ -103,6 +145,7 @@ Generates the following visualization:
 <br/><br/><br/>
 [*Back to top*](#common-body-elements)
 
+<a id="comment"></a>
 ### Comment
 
 * Opening tag: &lt;!--
@@ -115,6 +158,7 @@ Generates the following visualization:
 <br/><br/><br/>
 [*Back to top*](#common-body-elements)
 
+<a id="anchor-elements"></a>
 ### Anchor Elements
 Anchor elements are used to link content to the page.
 
@@ -147,6 +191,7 @@ Generates the following visualization:
 <br/><br/><br/>
 [*Back to top*](#common-body-elements)
 
+<a id="image"></a>
 ### Image
 
 * Image tag: `<img src="file/complete/path/or/url" alt="Image description">`
@@ -168,6 +213,7 @@ Generates the following visualization
 <br/><br/><br/>
 [*Back to top*](#common-body-elements)
 
+<a id="unordered-list"></a>
 ### Unordered List
 * Unordered list tag: `<ul>` and `</ul>`
 * List item tag: `<li>` and `<\li>`
@@ -190,6 +236,7 @@ Generates the following visualization:
 <br/><br/><br/>
 [*Back to top*](#common-body-elements)
 
+<a id="ordered-list"></a>
 ### Ordered List
 * Ordered list tag: `<ol>` and `</ol>`
 * List item tag: `<li>` and `<\li>`
@@ -212,6 +259,7 @@ Generates the following visualization:
 <br/><br/><br/>
 [*Back to top*](#common-body-elements)
 
+<a id="division-element"></a>
 ### Division Element
 
 Division tags are used to nest different HTML elements in just one container.
@@ -242,6 +290,7 @@ Note that in terms of visualization, the `div` tag has not changed anything. The
 <br/><br/><br/>
 [*Back to top*](#common-body-elements)
 
+<a id="layout-elements"></a>
 ### Layout Elements
 To further improve the code's readability, is recommended that each HTML body be divided into 3 parts: header, main, and footer.
 
@@ -274,7 +323,9 @@ You can find detailed information about HTML Semantics in the [w3schools](https:
 <br/><br/><br/>
 [*Back to top*](#common-body-elements)
 
+<a id="form-element"></a>
 ### Form element
+<a id="text-field"></a>
 #### Text Field
 * Text field tag: `<input type="text">`
 * Placeholder atribute: text to display in the text field element.
