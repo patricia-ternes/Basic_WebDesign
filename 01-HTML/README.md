@@ -13,7 +13,6 @@
 
 1. [General Information](#general-information)
 1. [Important](#important)
-1. [Introduction](#introduction)
 1. [General structure of an HTML page](#general-structure-of-an-html-page)
     1. [Common `body` elements:](#common-body-elements)
     1. [Common `head` elements:](#common-head-elements)
@@ -42,10 +41,6 @@ In this page you will find basic informations about HTML.
 
 * This repository is under construction!
 * <div>Icons made by <a href="https://www.freepik.com" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
-<!--
-<a id="introduction"></a>
-## Introduction
--->
 
 <a id="general-structure-of-an-html-page"></a>
 ## General structure of an HTML page
