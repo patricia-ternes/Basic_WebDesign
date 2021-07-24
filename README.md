@@ -17,13 +17,13 @@
     <h1 align="center"> Basic Web Design Documentation </h1>
 </p>
 
-# Basic Web Design Projects
-
 In this repository you will find basic informations about HTML and CSS.
 
-### Important
+<a id="important"></a>
+**Important**
 
-This repository is under construction!
+* This repository is under construction!
+* <div>Icons made by <a href="https://www.freepik.com" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
 
 ## Table of Contents
 1. [HTML](https://github.com/patricia-ternes/Basic_WebDesign_Projects/tree/main/01-HTML)
