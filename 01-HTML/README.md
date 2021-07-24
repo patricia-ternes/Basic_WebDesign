@@ -93,8 +93,6 @@ HTML elements can have attributes like:
 * `class` attribute: specify a class (multiple `style` attributes defined in the `head` section or in an external CSS file) for an HTML element.
 * `style` *inline* attribute: uses a inline CSS to apply a style for an HTML element.
 
-For example
-
 ```html
 <h1> This is a heading without attributes. </h1>
 
@@ -110,7 +108,6 @@ For example
 * Subheading (h2) tag: `<h2>` and `</h2>`
 * Other heading levels: h3, h4, h5 and h6
 
-For example
 
 ```html
 <h1> This is a main heading </h1>
