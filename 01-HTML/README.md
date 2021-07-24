@@ -152,31 +152,23 @@ For example
 ### Anchor Elements
 Anchor elements are used to link content to the page.
 
-* Anchor tag: `<a href="url_location">this links to some url</a>`
-* href attribute: destination web address
+* Anchor tag: `<a href="url_location">`  and `</a>`
+* `href` attribute: destination address
 
-For example, the HTML code
 ```html
-<a href="https://unsplash.com/">this links to Unsplash (source of freely-usable images)</a>
+<a href="https://github.com/">this text links to GitHub</a>
 ```
-Generates the following visualization:
-<a href="https://unsplash.com/">this links to Unsplash (source of freely-usable images)</a>
 
-Anchor tags can link contents inside the same page. In this case is necessary:
+* Anchor tags can link contents inside the same page. In this case is necessary:
 
-1. Include an identification attribute (`id`) in the desired element;
-2. Use the `href` attribute fallowed by a `#` and the `id` in the `<a>` tag to link the element;
+    1. Include an identification attribute (`id`) in the desired element;
+    2. Use the `href` attribute fallowed by a `#` and the `id` in the `<a>` tag to link the element;
 
-For example, the HTML code
 ```html
 <p id='paragraph-to-link'> This paragraph can be linked internally </p>
 
 <a href="#paragraph-to-link">this links to the previous paragraph.</a>
 ```
-Generates the following visualization:
-<p id='paragraphy-to-link'> This paragraph can be linked internally </p>
-
-<a href="#paragraphy-to-link">this links to the previous paragraph.</a>
 
 <br/><br/><br/>
 <a href="#logo"> *Back to top* </a>
