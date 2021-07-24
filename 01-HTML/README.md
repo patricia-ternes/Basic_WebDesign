@@ -19,7 +19,7 @@ In this page you will find basic informations about HTML.
 
 ---
 
-<details open="open" id="begining">
+<details open="open" id="toc">
 <!-- MarkdownTOC -->
 
 1. [General structure of an HTML page](#general-structure-of-an-html-page)
@@ -110,7 +110,7 @@ For example
 * Subheading (h2) tag: `<h2>` and `</h2>`
 * Other heading levels: h3, h4, h5 and h6
 
-For example, the HTML code
+For example
 
 ```html
 <h1> This is a main heading </h1>
@@ -120,8 +120,6 @@ For example, the HTML code
 
 
 <br/><br/><br/>
-[*Back to top*](#common-body-elements)
-
 <a href="#logo"> *Back to top* </a>
 
 <a id="paragraph"></a>
@@ -134,7 +132,7 @@ For example, the HTML code
 ```
 
 <br/><br/><br/>
-[*Back to top*](#common-body-elements)
+<a href="#logo"> *Back to top* </a>
 
 <a id="comment"></a>
 ### Comment
@@ -147,7 +145,7 @@ For example, the HTML code
 ```
 
 <br/><br/><br/>
-[*Back to top*](#common-body-elements)
+<a href="#logo"> *Back to top* </a>
 
 <a id="anchor-elements"></a>
 ### Anchor Elements
@@ -180,7 +178,7 @@ Generates the following visualization:
 <a href="#paragraphy-to-link">this links to the previous paragraph.</a>
 
 <br/><br/><br/>
-[*Back to top*](#common-body-elements)
+<a href="#logo"> *Back to top* </a>
 
 <a id="image"></a>
 ### Image
@@ -202,7 +200,7 @@ Generates the following visualization
 *(image from [Unsplash](https://unsplash.com/)).*
 
 <br/><br/><br/>
-[*Back to top*](#common-body-elements)
+<a href="#logo"> *Back to top* </a>
 
 <a id="unordered-list"></a>
 ### Unordered List
@@ -225,7 +223,7 @@ Generates the following visualization:
 </ul>
 
 <br/><br/><br/>
-[*Back to top*](#common-body-elements)
+<a href="#logo"> *Back to top* </a>
 
 <a id="ordered-list"></a>
 ### Ordered List
@@ -248,7 +246,7 @@ Generates the following visualization:
 </ol>
 
 <br/><br/><br/>
-[*Back to top*](#common-body-elements)
+<a href="#logo"> *Back to top* </a>
 
 <a id="division-element"></a>
 ### Division Element
@@ -279,7 +277,7 @@ Generates the following visualization:
 Note that in terms of visualization, the `div` tag has not changed anything. The purpose of the tag is to improve the code's readability and to allow future style improvements.
 
 <br/><br/><br/>
-[*Back to top*](#common-body-elements)
+<a href="#logo"> *Back to top* </a>
 
 <a id="layout-elements"></a>
 ### Layout Elements
@@ -312,7 +310,7 @@ You can find detailed information about HTML Semantics in the [w3schools](https:
 
 <!-- para criar formularios
 <br/><br/><br/>
-[*Back to top*](#common-body-elements)
+<a href="#logo"> *Back to top* </a>
 
 <a id="form-element"></a>
 ### Form element
