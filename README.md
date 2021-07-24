@@ -1,6 +1,6 @@
 <!-- PROJECT SHIELDS -->
 <p align="center">
-    <a href="https://github.com/badges/shields/graphs/contributors" alt="Contributors">
+    <a href="https://github.com/patricia-ternes/Basic_WebDesign_Projects/graphs/contributors" alt="Contributors">
         <img src="https://img.shields.io/github/contributors/patricia-ternes/Basic_WebDesign_Projects?color=%2366FFC3&logo=GitHub&logoColor=%2366FFC3&style=for-the-badge" /></a>
      <a href="https://github.com/patricia-ternes/Basic_WebDesign_Projects/blob/main/LICENSE" alt="License">
         <img src="https://img.shields.io/github/license/patricia-ternes/Basic_WebDesign_Projects?color=FFB3BC&style=for-the-badge" /></a>
