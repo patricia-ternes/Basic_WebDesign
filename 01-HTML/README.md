@@ -18,8 +18,9 @@ In this page you will find basic informations about HTML.
 
 ---
 ---
-## Table of Contents
+
 <details open="open" id="toc">
+    <summary>Table of Contents</summary>
 <!-- MarkdownTOC -->
 
 1. [General structure of an HTML page](#general-structure-of-an-html-page)
