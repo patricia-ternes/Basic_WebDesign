@@ -26,8 +26,6 @@ In this repository you will find basic informations about HTML and CSS.
 * <div>Icons made by <a href="https://www.freepik.com" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
 
 ## Table of Contents
+
 1. [HTML](01-HTML/)
 1. [CSS](02-CSS/)
-
-
-
