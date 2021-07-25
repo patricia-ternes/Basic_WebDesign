@@ -23,19 +23,19 @@ In this page you will find basic informations about Hypertext Markup Language (H
     <summary>Table of Contents</summary>
 <!-- MarkdownTOC -->
 
-1. [General structure of an HTML page](#general-structure-of-an-html-page)
-    1. [Common `body` elements:](#common-body-elements)
-    1. [Common `head` elements:](#common-head-elements)
-1. [Elements](#elements)
-    1. [Headings](#headings)
-    1. [Paragraph](#paragraph)
-    1. [Comment](#comment)
-    1. [Anchor Elements](#anchor-elements)
-    1. [Image](#image)
-    1. [Unordered List](#unordered-list)
-    1. [Ordered List](#ordered-list)
-    1. [Division Element](#division-element)
-    1. [Layout Elements](#layout-elements)
+- [General structure of an HTML page](#general-structure-of-an-html-page)
+    - [Common `body` elements:](#common-body-elements)
+    - [Common `head` elements:](#common-head-elements)
+- [Elements](#elements)
+    - [Headings](#headings)
+    - [Paragraph](#paragraph)
+    - [Comment](#comment)
+    - [Anchor Elements](#anchor-elements)
+    - [Image](#image)
+    - [Unordered List](#unordered-list)
+    - [Ordered List](#ordered-list)
+    - [Division Element](#division-element)
+    - [Layout Elements](#layout-elements)
 
 <!-- /MarkdownTOC -->
 </details>
