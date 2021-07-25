@@ -26,7 +26,7 @@ In this page you will find basic informations about Hypertext Markup Language (H
 - [General structure of an HTML page](#general-structure-of-an-html-page)
     - [Common `body` elements:](#common-body-elements)
     - [Common `head` elements:](#common-head-elements)
-- [Elements](#elements)
+- [Basic elements structure](#basic-elements-structure)
     - [Headings](#headings)
     - [Paragraph](#paragraph)
     - [Comment](#comment)
@@ -90,8 +90,8 @@ In this page you will find basic informations about Hypertext Markup Language (H
 * script
 * noscript
 
-<a id="elements"></a>
-## Elements
+<a id="basic-elements-structure"></a>
+## Basic elements structure
 Most elements have opening and closing tags. Usually a tag has the following structure:
 
 * Opening tag: `<element>`
