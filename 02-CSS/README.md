@@ -60,6 +60,9 @@ CSS can be used in 3 ways:
 * **External**: external CSS file add through `<link>` element
 
 
+<br/><br/><br/>
+<a href="#logo"> *Back to top* </a>
+
 <a id="colour"></a>
 ## Colour
 
@@ -75,6 +78,9 @@ Different attributes uses colour value:
 * Text colour: `color: violet;`
 * Border colour: `border-color: hsl(300, 76%, 72%);`
 * Background colour: `background-color: rgb(238, 129, 238);`
+
+<br/><br/><br/>
+<a href="#logo"> *Back to top* </a>
 
 <a id="font"></a>
 ## Font
@@ -93,6 +99,9 @@ Font names are divided in five font families. The generic family names: are
 ```css
 font-family: cursive;
 ```
+
+<br/><br/><br/>
+<a href="#logo"> *Back to top* </a>
 
 <a id="external-font"></a>
 ### External font
@@ -113,6 +122,9 @@ For example, for the [*Bad Script*](https://fonts.google.com/specimen/Bad+Script
 font-family: "Bad Script"
 ```
 
+<br/><br/><br/>
+<a href="#logo"> *Back to top* </a>
+
 <a id="universal-fonts"></a>
 ### Universal fonts
 
@@ -130,12 +142,18 @@ Bellow is listed one font for each font family:
 font-family: "Courier New";
 ```
 
+<br/><br/><br/>
+<a href="#logo"> *Back to top* </a>
+
 <a id="font-degrade"></a>
 ### Font Degrade
 Sometimes the font can not be used by the browser (even the *universal fonts*), so it is recommended to provide other possibilities to the browser know what to do in this case. The last font should be a generic one.
 ```css
 font-family: "Bad Script", "Brush Script MT", cursive;
 ```
+
+<br/><br/><br/>
+<a href="#logo"> *Back to top* </a>
 
 <a id="font-size"></a>
 ### Font size
@@ -148,6 +166,9 @@ Attribute to set the font size. Can be set in different ways:
 * Viewport width (vw): `font-size:10vw;`
     * `100vw = 100%` of viewport width
 
+
+<br/><br/><br/>
+<a href="#logo"> *Back to top* </a>
 
 <a id="css-selectors"></a>
 ## CSS Selectors
@@ -165,6 +186,8 @@ To understand how to select and change the style in different ways, consider the
 
 This code has three titles with the same importance level in the text, so all three have the same `element` value. Each title has a specific `id`. The second and the third title have the same `class`, but the first has a unique `class`.
 
+<br/><br/><br/>
+<a href="#logo"> *Back to top* </a>
 
 <a id="element-selector"></a>
 ### Element Selector
@@ -189,6 +212,9 @@ p {
 }
 ``` 
 
+<br/><br/><br/>
+<a href="#logo"> *Back to top* </a>
+
 <a id="id-selector"></a>
 ### `id` Selector
 Used to select just the element set with the same `id`. The general format is (note the `#`):
@@ -204,6 +230,9 @@ For example, to apply a red colour only in the second `<h2>` heading:
     color: red;
 }
 ```
+
+<br/><br/><br/>
+<a href="#logo"> *Back to top* </a>
 
 <a id="class-selector"></a>
 ### `class` Selector
@@ -229,6 +258,8 @@ For example, to centralize the first title and the paragraph:
 }
 ```
 
+<br/><br/><br/>
+<a href="#logo"> *Back to top* </a>
 
 <a id="-universal-selector"></a>
 ### `*` Universal Selector
@@ -241,6 +272,9 @@ Used to select and apply the same style to all elements. For example, to apply a
 }
 ```
 
+<br/><br/><br/>
+<a href="#logo"> *Back to top* </a>
+
 <a id="grouping-selector"></a>
 ### Grouping Selector
 Used to set the same style to different elements. For example:
@@ -250,6 +284,9 @@ h2, p {
     color: blue;
 }
 ```
+
+<br/><br/><br/>
+<a href="#logo"> *Back to top* </a>
 
 <a id="nested-selector"></a>
 ### Nested Selector
