@@ -4,7 +4,7 @@
     <a href="#important">
         <img src="../inputs/icons/002-css.png" alt="Logo" height="80" id="logo">
     </a>
-    <h1 align="center"> Hypertext Markup Language</h1>
+    <h1 align="center"> Cascading Style Sheets</h1>
 </p>
 
 ## General Information
