@@ -17,17 +17,16 @@
     <h1 align="center"> Basic Web Design Documentation </h1>
 </p>
 
-In this repository you will find basic informations about HTML and CSS.
+In this repository you will find basic information about HTML and CSS.
 
 <a id="important"></a>
 **Important**
 
-* This repository is under construction!
-* <div>Icons made by <a href="https://www.freepik.com" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
+- This repository is under construction!
+- <div>Icons made by <a href="https://www.freepik.com" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
 
 ## Table of Contents
 
 1. [HTML](01-HTML/)
 1. [CSS](02-CSS/)
 
-.
