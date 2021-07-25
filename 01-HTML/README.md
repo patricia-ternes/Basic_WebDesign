@@ -67,6 +67,10 @@ In this page you will find basic informations about Hypertext Markup Language (H
 
 </html>
 ```
+
+<br/><br/><br/>
+<a href="#logo"> *Back to top* </a>
+
 <a id="basic-elements-structure"></a>
 ## Basic elements structure
 Most HTML elements have opening and closing tags. Usually a tag has the following structure:
@@ -88,6 +92,9 @@ HTML elements can have attributes like:
 </h1>
 ```
 
+<br/><br/><br/>
+<a href="#logo"> *Back to top* </a>
+
 <a id="common-body-elements"></a>
 ## Common `body` elements:
 * [headings](#headings)
@@ -100,6 +107,9 @@ HTML elements can have attributes like:
 * [division](#division-element)
 * [header, main, footer, and sections](#layout-elements)
 * form, input, radio, and checkbox
+
+<br/><br/><br/>
+<a href="#logo"> *Back to top* </a>
 
 <a id="headings"></a>
 ### Headings
