@@ -17,6 +17,30 @@ In this page you will find basic informations about Cascading Style Sheets (CSS)
 
 ---
 
+<details open="open" id="toc">
+    <summary>Table of Contents</summary>
+<!-- MarkdownTOC -->
+
+- [Introduction](#introduction)
+- [Colour](#colour)
+- [Font](#font)
+    - [Generic font families](#generic-font-families)
+    - [External font](#external-font)
+    - [Universal fonts](#universal-fonts)
+    - [Font Degrade](#font-degrade)
+    - [Font size](#font-size)
+- [CSS Selectors](#css-selectors)
+    - [Element Selector](#element-selector)
+        - [`id` Selector](#id-selector)
+        - [`class` Selector](#class-selector)
+        - [`*` Universal Selector](#-universal-selector)
+        - [Grouping Selector](#grouping-selector)
+        - [Nested Selector](#nested-selector)
+
+<!-- /MarkdownTOC -->
+</details>
+
+<a id="introduction"></a>
 ## Introduction
 
 CSS provide to the web browser instructions about how a HTML code should be displayed.
@@ -36,6 +60,7 @@ CSS can be used in 3 ways:
 * **External**: external CSS file add through `<link>` element
 
 
+<a id="colour"></a>
 ## Colour
 
 The most common style attribute. HTML colours can be referenced by:
@@ -51,8 +76,10 @@ Different attributes uses colour value:
 * Border colour: `border-color: hsl(300, 76%, 72%);`
 * Background colour: `background-color: rgb(238, 129, 238);`
 
+<a id="font"></a>
 ## Font
 
+<a id="generic-font-families"></a>
 ### Generic font families
 
 Font names are divided in five font families. The generic family names: are
@@ -67,6 +94,7 @@ Font names are divided in five font families. The generic family names: are
 font-family: cursive;
 ```
 
+<a id="external-font"></a>
 ### External font
 
 Several places provide additional fonts. For example, you can use the [Google Fonts](https://fonts.google.com/) to find a free font.
@@ -85,6 +113,7 @@ For example, for the [*Bad Script*](https://fonts.google.com/specimen/Bad+Script
 font-family: "Bad Script"
 ```
 
+<a id="universal-fonts"></a>
 ### Universal fonts
 
 Some fonts are (**probably**) installed in all browsers and devices. So it is possible to use them without import external information.
@@ -101,12 +130,14 @@ Bellow is listed one font for each font family:
 font-family: "Courier New";
 ```
 
+<a id="font-degrade"></a>
 ### Font Degrade
 Sometimes the font can not be used by the browser (even the *universal fonts*), so it is recommended to provide other possibilities to the browser know what to do in this case. The last font should be a generic one.
 ```css
 font-family: "Bad Script", "Brush Script MT", cursive;
 ```
 
+<a id="font-size"></a>
 ### Font size
 
 Attribute to set the font size. Can be set in different ways:
@@ -118,6 +149,7 @@ Attribute to set the font size. Can be set in different ways:
     * `100vw = 100%` of viewport width
 
 
+<a id="css-selectors"></a>
 ## CSS Selectors
 To understand how to select and change the style in different ways, consider the following HTML small code:
 
@@ -134,6 +166,7 @@ To understand how to select and change the style in different ways, consider the
 This code has three titles with the same importance level in the text, so all three have the same `element` value. Each title has a specific `id`. The second and the third title have the same `class`, but the first has a unique `class`.
 
 
+<a id="element-selector"></a>
 ### Element Selector
 Used to apply one style for a specific element. All entry of this element will receive this style. The general format is:
 ```css
@@ -156,6 +189,7 @@ p {
 }
 ``` 
 
+<a id="id-selector"></a>
 #### `id` Selector
 Used to select just the element set with the same `id`. The general format is (note the `#`):
 ```css
@@ -171,6 +205,7 @@ For example, to apply a red colour only in the second `<h2>` heading:
 }
 ```
 
+<a id="class-selector"></a>
 #### `class` Selector
 Used to select all elements set with the same `class`. The general format is (note the `.`):
 ```css
@@ -195,6 +230,7 @@ For example, to centralize the first title and the paragraph:
 ```
 
 
+<a id="-universal-selector"></a>
 #### `*` Universal Selector
 Used to select and apply the same style to all elements. For example, to apply a blue colour and to centralize all titles and the paragraph:
 
@@ -205,6 +241,7 @@ Used to select and apply the same style to all elements. For example, to apply a
 }
 ```
 
+<a id="grouping-selector"></a>
 #### Grouping Selector
 Used to set the same style to different elements. For example:
 ```css
@@ -214,6 +251,7 @@ h2, p {
 }
 ```
 
+<a id="nested-selector"></a>
 #### Nested Selector
 Used to set one style for the element that has a combination of identification. For example, if the element is `<h2>` and the class is `centre-blue`, than the text should be violet and centralized.
 
