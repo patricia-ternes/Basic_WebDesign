@@ -1,4 +1,11 @@
-# Cascading Style Sheets - CSS
+<!-- PROJECT LOGO -->
+<br />
+<p align="center">
+    <a href="#important">
+        <img src="../inputs/icons/002-css.png" alt="Logo" height="80" id="logo">
+    </a>
+    <h1 align="center"> Hypertext Markup Language</h1>
+</p>
 
 ## General Information
 In this page you will find basic informations about CSS.
