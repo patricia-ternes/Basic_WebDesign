@@ -23,10 +23,10 @@ In this page you will find basic informations about Hypertext Markup Language (H
     <summary>Table of Contents</summary>
 <!-- MarkdownTOC -->
 
+- [Basic elements structure](#basic-elements-structure)
 - [General structure of an HTML page](#general-structure-of-an-html-page)
     - [Common `body` elements:](#common-body-elements)
     - [Common `head` elements:](#common-head-elements)
-- [Basic elements structure](#basic-elements-structure)
     - [Headings](#headings)
     - [Paragraph](#paragraph)
     - [Comment](#comment)
@@ -39,6 +39,27 @@ In this page you will find basic informations about Hypertext Markup Language (H
 
 <!-- /MarkdownTOC -->
 </details>
+
+<a id="basic-elements-structure"></a>
+## Basic elements structure
+Most HTML elements have opening and closing tags. Usually a tag has the following structure:
+
+* Opening tag: `<element>`
+* Closing tag: `</element>`
+
+HTML elements can have attributes like:
+
+* `id` attribute: specify a unique id for an HTML element.
+* `class` attribute: specify a class (multiple `style` attributes defined in the `head` section or in an external CSS file) for an HTML element.
+* `style` *inline* attribute: uses a inline CSS to apply a style for an HTML element.
+
+```html
+<h1> This is a heading without attributes. </h1>
+
+<h1 id="main-title" class="red-text" style="font-size:20px"> 
+    This is a heading with an id, a class and a style attributes.
+</h1>
+```
 
 <a id="general-structure-of-an-html-page"></a>
 ## General structure of an HTML page
@@ -89,27 +110,6 @@ In this page you will find basic informations about Hypertext Markup Language (H
 * link
 * script
 * noscript
-
-<a id="basic-elements-structure"></a>
-## Basic elements structure
-Most elements have opening and closing tags. Usually a tag has the following structure:
-
-* Opening tag: `<element>`
-* Closing tag: `</element>`
-
-HTML elements can have attributes like:
-
-* `id` attribute: specify a unique id for an HTML element.
-* `class` attribute: specify a class (multiple `style` attributes defined in the `head` section or in an external CSS file) for an HTML element.
-* `style` *inline* attribute: uses a inline CSS to apply a style for an HTML element.
-
-```html
-<h1> This is a heading without attributes. </h1>
-
-<h1 id="main-title" class="red-text" style="font-size:20px"> 
-    This is a heading with an id, a class and a style attributes.
-</h1>
-```
 
 <a id="headings"></a>
 ### Headings
