@@ -42,6 +42,17 @@ In this page you will find basic informations about Hypertext Markup Language (H
 
 <a id="general-structure-of-an-html-page"></a>
 ## General structure of an HTML page
+
+* `<!DOCTYPE>` : define the HTML version
+    * self closing tag
+    * `<!DOCTYPE html>`: for HTML5
+* `html`: root element
+    * tag: `<html>` and `</html>`
+* head: meta information
+    * tag: `<head>` and `</head>` 
+* body: container for visible information
+    * tag: `<body>` and `</body>`
+
 ```html
 <!DOCTYPE html>
 <html>
