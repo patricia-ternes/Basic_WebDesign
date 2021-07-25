@@ -31,11 +31,11 @@ In this page you will find basic informations about Cascading Style Sheets (CSS)
     - [Font size](#font-size)
 - [CSS Selectors](#css-selectors)
     - [Element Selector](#element-selector)
-        - [`id` Selector](#id-selector)
-        - [`class` Selector](#class-selector)
-        - [`*` Universal Selector](#-universal-selector)
-        - [Grouping Selector](#grouping-selector)
-        - [Nested Selector](#nested-selector)
+    - [`id` Selector](#id-selector)
+    - [`class` Selector](#class-selector)
+    - [`*` Universal Selector](#-universal-selector)
+    - [Grouping Selector](#grouping-selector)
+    - [Nested Selector](#nested-selector)
 
 <!-- /MarkdownTOC -->
 </details>
@@ -190,7 +190,7 @@ p {
 ``` 
 
 <a id="id-selector"></a>
-#### `id` Selector
+### `id` Selector
 Used to select just the element set with the same `id`. The general format is (note the `#`):
 ```css
 #id-name {
@@ -206,7 +206,7 @@ For example, to apply a red colour only in the second `<h2>` heading:
 ```
 
 <a id="class-selector"></a>
-#### `class` Selector
+### `class` Selector
 Used to select all elements set with the same `class`. The general format is (note the `.`):
 ```css
 .class-name {
@@ -231,7 +231,7 @@ For example, to centralize the first title and the paragraph:
 
 
 <a id="-universal-selector"></a>
-#### `*` Universal Selector
+### `*` Universal Selector
 Used to select and apply the same style to all elements. For example, to apply a blue colour and to centralize all titles and the paragraph:
 
 ```css
@@ -242,7 +242,7 @@ Used to select and apply the same style to all elements. For example, to apply a
 ```
 
 <a id="grouping-selector"></a>
-#### Grouping Selector
+### Grouping Selector
 Used to set the same style to different elements. For example:
 ```css
 h2, p {
@@ -252,7 +252,7 @@ h2, p {
 ```
 
 <a id="nested-selector"></a>
-#### Nested Selector
+### Nested Selector
 Used to set one style for the element that has a combination of identification. For example, if the element is `<h2>` and the class is `centre-blue`, than the text should be violet and centralized.
 
 ```css
