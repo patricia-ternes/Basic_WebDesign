@@ -1,12 +1,46 @@
-# Cascading Style Sheets - CSS
+<!-- PROJECT LOGO -->
+<br />
+<p align="center">
+    <a href="#important">
+        <img src="../inputs/icons/002-css.png" alt="Logo" height="80" id="logo">
+    </a>
+    <h1 align="center"> Cascading Style Sheets</h1>
+</p>
 
-## General Information
-In this page you will find basic informations about CSS.
+In this page you will find basic informations about Cascading Style Sheets (CSS).
 
-## Important
+<a id="important"></a>
+**Important**
 
-This repository is under construction!
+* This repository is under construction!
+* <div>Icons made by <a href="https://www.freepik.com" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
 
+---
+
+<details open="open" id="toc">
+    <summary>Table of Contents</summary>
+<!-- MarkdownTOC -->
+
+- [Introduction](#introduction)
+- [Colour](#colour)
+- [Font](#font)
+    - [Generic font families](#generic-font-families)
+    - [External font](#external-font)
+    - [Universal fonts](#universal-fonts)
+    - [Font Degrade](#font-degrade)
+    - [Font size](#font-size)
+- [CSS Selectors](#css-selectors)
+    - [Element Selector](#element-selector)
+    - [`id` Selector](#id-selector)
+    - [`class` Selector](#class-selector)
+    - [`*` Universal Selector](#-universal-selector)
+    - [Grouping Selector](#grouping-selector)
+    - [Nested Selector](#nested-selector)
+
+<!-- /MarkdownTOC -->
+</details>
+
+<a id="introduction"></a>
 ## Introduction
 
 CSS provide to the web browser instructions about how a HTML code should be displayed.
@@ -26,6 +60,10 @@ CSS can be used in 3 ways:
 * **External**: external CSS file add through `<link>` element
 
 
+<br/><br/><br/>
+<a href="#logo"> *Back to top* </a>
+
+<a id="colour"></a>
 ## Colour
 
 The most common style attribute. HTML colours can be referenced by:
@@ -41,8 +79,13 @@ Different attributes uses colour value:
 * Border colour: `border-color: hsl(300, 76%, 72%);`
 * Background colour: `background-color: rgb(238, 129, 238);`
 
+<br/><br/><br/>
+<a href="#logo"> *Back to top* </a>
+
+<a id="font"></a>
 ## Font
 
+<a id="generic-font-families"></a>
 ### Generic font families
 
 Font names are divided in five font families. The generic family names: are
@@ -57,6 +100,10 @@ Font names are divided in five font families. The generic family names: are
 font-family: cursive;
 ```
 
+<br/><br/><br/>
+<a href="#logo"> *Back to top* </a>
+
+<a id="external-font"></a>
 ### External font
 
 Several places provide additional fonts. For example, you can use the [Google Fonts](https://fonts.google.com/) to find a free font.
@@ -75,6 +122,10 @@ For example, for the [*Bad Script*](https://fonts.google.com/specimen/Bad+Script
 font-family: "Bad Script"
 ```
 
+<br/><br/><br/>
+<a href="#logo"> *Back to top* </a>
+
+<a id="universal-fonts"></a>
 ### Universal fonts
 
 Some fonts are (**probably**) installed in all browsers and devices. So it is possible to use them without import external information.
@@ -91,12 +142,20 @@ Bellow is listed one font for each font family:
 font-family: "Courier New";
 ```
 
+<br/><br/><br/>
+<a href="#logo"> *Back to top* </a>
+
+<a id="font-degrade"></a>
 ### Font Degrade
 Sometimes the font can not be used by the browser (even the *universal fonts*), so it is recommended to provide other possibilities to the browser know what to do in this case. The last font should be a generic one.
 ```css
 font-family: "Bad Script", "Brush Script MT", cursive;
 ```
 
+<br/><br/><br/>
+<a href="#logo"> *Back to top* </a>
+
+<a id="font-size"></a>
 ### Font size
 
 Attribute to set the font size. Can be set in different ways:
@@ -108,6 +167,10 @@ Attribute to set the font size. Can be set in different ways:
     * `100vw = 100%` of viewport width
 
 
+<br/><br/><br/>
+<a href="#logo"> *Back to top* </a>
+
+<a id="css-selectors"></a>
 ## CSS Selectors
 To understand how to select and change the style in different ways, consider the following HTML small code:
 
@@ -123,7 +186,10 @@ To understand how to select and change the style in different ways, consider the
 
 This code has three titles with the same importance level in the text, so all three have the same `element` value. Each title has a specific `id`. The second and the third title have the same `class`, but the first has a unique `class`.
 
+<br/><br/><br/>
+<a href="#logo"> *Back to top* </a>
 
+<a id="element-selector"></a>
 ### Element Selector
 Used to apply one style for a specific element. All entry of this element will receive this style. The general format is:
 ```css
@@ -146,7 +212,11 @@ p {
 }
 ``` 
 
-#### `id` Selector
+<br/><br/><br/>
+<a href="#logo"> *Back to top* </a>
+
+<a id="id-selector"></a>
+### `id` Selector
 Used to select just the element set with the same `id`. The general format is (note the `#`):
 ```css
 #id-name {
@@ -161,7 +231,11 @@ For example, to apply a red colour only in the second `<h2>` heading:
 }
 ```
 
-#### `class` Selector
+<br/><br/><br/>
+<a href="#logo"> *Back to top* </a>
+
+<a id="class-selector"></a>
+### `class` Selector
 Used to select all elements set with the same `class`. The general format is (note the `.`):
 ```css
 .class-name {
@@ -184,8 +258,11 @@ For example, to centralize the first title and the paragraph:
 }
 ```
 
+<br/><br/><br/>
+<a href="#logo"> *Back to top* </a>
 
-#### `*` Universal Selector
+<a id="-universal-selector"></a>
+### `*` Universal Selector
 Used to select and apply the same style to all elements. For example, to apply a blue colour and to centralize all titles and the paragraph:
 
 ```css
@@ -195,7 +272,11 @@ Used to select and apply the same style to all elements. For example, to apply a
 }
 ```
 
-#### Grouping Selector
+<br/><br/><br/>
+<a href="#logo"> *Back to top* </a>
+
+<a id="grouping-selector"></a>
+### Grouping Selector
 Used to set the same style to different elements. For example:
 ```css
 h2, p {
@@ -204,7 +285,11 @@ h2, p {
 }
 ```
 
-#### Nested Selector
+<br/><br/><br/>
+<a href="#logo"> *Back to top* </a>
+
+<a id="nested-selector"></a>
+### Nested Selector
 Used to set one style for the element that has a combination of identification. For example, if the element is `<h2>` and the class is `centre-blue`, than the text should be violet and centralized.
 
 ```css
