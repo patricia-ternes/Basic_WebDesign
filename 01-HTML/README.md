@@ -286,6 +286,9 @@ There are others semantics elements to define different parts of the HTML: `arti
 
 You can find detailed information about HTML Semantics in the [w3schools](https://www.w3schools.com/html/html5_semantic_elements.asp) site.
 
+<br/><br/><br/>
+<a href="#logo"> *Back to top* </a>
+
 <a id="common-head-elements"></a>
 ## Common `head` elements:
 * title (required)
