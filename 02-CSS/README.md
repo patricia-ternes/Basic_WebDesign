@@ -7,12 +7,15 @@
     <h1 align="center"> Cascading Style Sheets</h1>
 </p>
 
-## General Information
-In this page you will find basic informations about CSS.
+In this page you will find basic informations about Cascading Style Sheets (CSS).
 
-## Important
+<a id="important"></a>
+**Important**
 
-This repository is under construction!
+* This repository is under construction!
+* <div>Icons made by <a href="https://www.freepik.com" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
+
+---
 
 ## Introduction
 
