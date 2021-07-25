@@ -26,7 +26,7 @@ In this page you will find basic informations about Hypertext Markup Language (H
 - [General structure of an HTML page](#general-structure-of-an-html-page)
 - [Basic elements structure](#basic-elements-structure)
     - [Common `body` elements:](#common-body-elements)
-    - [Headings](#headings)
+- [Headings](#headings)
     - [Paragraph](#paragraph)
     - [Comment](#comment)
     - [Anchor Elements](#anchor-elements)
@@ -102,7 +102,7 @@ HTML elements can have attributes like:
 * form, input, radio, and checkbox
 
 <a id="headings"></a>
-### Headings
+## Headings
 
 * Main heading (h1) tag: `<h1>` and `</h1>`
 * Subheading (h2) tag: `<h2>` and `</h2>`
