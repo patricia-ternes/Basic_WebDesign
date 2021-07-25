@@ -4,11 +4,11 @@
     <a href="#important">
         <img src="../inputs/icons/005-html.png" alt="Logo" height="80" id="logo">
     </a>
-    <h1 align="center"> Hypertext Markup Language - HTML </h1>
+    <h1 align="center"> Hypertext Markup Language</h1>
 </p>
 
     
-In this page you will find basic informations about HTML.
+In this page you will find basic informations about Hypertext Markup Language (HTML).
 
 <a id="important"></a>
 **Important**
@@ -23,25 +23,36 @@ In this page you will find basic informations about HTML.
     <summary>Table of Contents</summary>
 <!-- MarkdownTOC -->
 
-1. [General structure of an HTML page](#general-structure-of-an-html-page)
-    1. [Common `body` elements:](#common-body-elements)
-    1. [Common `head` elements:](#common-head-elements)
-1. [Elements](#elements)
-    1. [Headings](#headings)
-    1. [Paragraph](#paragraph)
-    1. [Comment](#comment)
-    1. [Anchor Elements](#anchor-elements)
-    1. [Image](#image)
-    1. [Unordered List](#unordered-list)
-    1. [Ordered List](#ordered-list)
-    1. [Division Element](#division-element)
-    1. [Layout Elements](#layout-elements)
+- [General structure of an HTML page](#general-structure-of-an-html-page)
+- [Basic elements structure](#basic-elements-structure)
+- [Common `body` elements:](#common-body-elements)
+    - [Headings](#headings)
+    - [Paragraph](#paragraph)
+    - [Comment](#comment)
+    - [Anchor Elements](#anchor-elements)
+    - [Image](#image)
+    - [Unordered List](#unordered-list)
+    - [Ordered List](#ordered-list)
+    - [Division Element](#division-element)
+    - [Layout Elements](#layout-elements)
+- [Common `head` elements:](#common-head-elements)
 
 <!-- /MarkdownTOC -->
 </details>
 
 <a id="general-structure-of-an-html-page"></a>
 ## General structure of an HTML page
+
+* `<!DOCTYPE>` : define the HTML version
+    * self closing tag
+    * `<!DOCTYPE html>`: for HTML5
+* html: root element
+    * tag: `<html>` and `</html>`
+* head: meta information
+    * tag: `<head>` and `</head>` 
+* body: container for visible information
+    * tag: `<body>` and `</body>`
+
 ```html
 <!DOCTYPE html>
 <html>
@@ -56,32 +67,13 @@ In this page you will find basic informations about HTML.
 
 </html>
 ```
-<a id="common-body-elements"></a>
-### Common `body` elements:
-* [headings](#headings)
-* [paragraph](#paragraph)
-* [comment](#comment)
-* [anchor](#anchor-elements)
-* [image](#image)
-* [unordered list](#unordered-list)
-* [ordered list](#ordered-list)
-* [division](#division-element)
-* [header, main, footer, and sections](#layout-elements)
-* form, input, radio, and checkbox
 
-<a id="common-head-elements"></a>
-### Common `head` elements:
-* title (required)
-* style
-* meta
-* base
-* link
-* script
-* noscript
+<br/><br/><br/>
+<a href="#logo"> *Back to top* </a>
 
-<a id="elements"></a>
-## Elements
-Most elements have opening and closing tags. Usually a tag has the following structure:
+<a id="basic-elements-structure"></a>
+## Basic elements structure
+Most HTML elements have opening and closing tags. Usually a tag has the following structure:
 
 * Opening tag: `<element>`
 * Closing tag: `</element>`
@@ -99,6 +91,25 @@ HTML elements can have attributes like:
     This is a heading with an id, a class and a style attributes.
 </h1>
 ```
+
+<br/><br/><br/>
+<a href="#logo"> *Back to top* </a>
+
+<a id="common-body-elements"></a>
+## Common `body` elements:
+* [headings](#headings)
+* [paragraph](#paragraph)
+* [comment](#comment)
+* [anchor](#anchor-elements)
+* [image](#image)
+* [unordered list](#unordered-list)
+* [ordered list](#ordered-list)
+* [division](#division-element)
+* [header, main, footer, and sections](#layout-elements)
+* form, input, radio, and checkbox
+
+<br/><br/><br/>
+<a href="#logo"> *Back to top* </a>
 
 <a id="headings"></a>
 ### Headings
@@ -275,3 +286,15 @@ There are others semantics elements to define different parts of the HTML: `arti
 
 You can find detailed information about HTML Semantics in the [w3schools](https://www.w3schools.com/html/html5_semantic_elements.asp) site.
 
+<br/><br/><br/>
+<a href="#logo"> *Back to top* </a>
+
+<a id="common-head-elements"></a>
+## Common `head` elements:
+* title (required)
+* style
+* meta
+* base
+* link
+* script
+* noscript
