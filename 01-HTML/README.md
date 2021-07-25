@@ -4,11 +4,11 @@
     <a href="#important">
         <img src="../inputs/icons/005-html.png" alt="Logo" height="80" id="logo">
     </a>
-    <h1 align="center"> Hypertext Markup Language - HTML </h1>
+    <h1 align="center"> Hypertext Markup Language</h1>
 </p>
 
     
-In this page you will find basic informations about HTML.
+In this page you will find basic informations about Hypertext Markup Language (HTML).
 
 <a id="important"></a>
 **Important**
