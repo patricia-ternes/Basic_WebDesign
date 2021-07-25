@@ -24,9 +24,8 @@ In this page you will find basic informations about Hypertext Markup Language (H
 <!-- MarkdownTOC -->
 
 - [General structure of an HTML page](#general-structure-of-an-html-page)
-    - [Common `body` elements:](#common-body-elements)
 - [Basic elements structure](#basic-elements-structure)
-- [Common `head` elements:](#common-head-elements)
+    - [Common `body` elements:](#common-body-elements)
     - [Headings](#headings)
     - [Paragraph](#paragraph)
     - [Comment](#comment)
@@ -36,6 +35,7 @@ In this page you will find basic informations about Hypertext Markup Language (H
     - [Ordered List](#ordered-list)
     - [Division Element](#division-element)
     - [Layout Elements](#layout-elements)
+- [Common `head` elements:](#common-head-elements)
 
 <!-- /MarkdownTOC -->
 </details>
@@ -67,19 +67,6 @@ In this page you will find basic informations about Hypertext Markup Language (H
 
 </html>
 ```
-<a id="common-body-elements"></a>
-### Common `body` elements:
-* [headings](#headings)
-* [paragraph](#paragraph)
-* [comment](#comment)
-* [anchor](#anchor-elements)
-* [image](#image)
-* [unordered list](#unordered-list)
-* [ordered list](#ordered-list)
-* [division](#division-element)
-* [header, main, footer, and sections](#layout-elements)
-* form, input, radio, and checkbox
-
 <a id="basic-elements-structure"></a>
 ## Basic elements structure
 Most HTML elements have opening and closing tags. Usually a tag has the following structure:
@@ -101,15 +88,18 @@ HTML elements can have attributes like:
 </h1>
 ```
 
-<a id="common-head-elements"></a>
-## Common `head` elements:
-* title (required)
-* style
-* meta
-* base
-* link
-* script
-* noscript
+<a id="common-body-elements"></a>
+### Common `body` elements:
+* [headings](#headings)
+* [paragraph](#paragraph)
+* [comment](#comment)
+* [anchor](#anchor-elements)
+* [image](#image)
+* [unordered list](#unordered-list)
+* [ordered list](#ordered-list)
+* [division](#division-element)
+* [header, main, footer, and sections](#layout-elements)
+* form, input, radio, and checkbox
 
 <a id="headings"></a>
 ### Headings
@@ -286,3 +276,12 @@ There are others semantics elements to define different parts of the HTML: `arti
 
 You can find detailed information about HTML Semantics in the [w3schools](https://www.w3schools.com/html/html5_semantic_elements.asp) site.
 
+<a id="common-head-elements"></a>
+## Common `head` elements:
+* title (required)
+* style
+* meta
+* base
+* link
+* script
+* noscript
