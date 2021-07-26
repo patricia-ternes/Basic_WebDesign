@@ -144,7 +144,7 @@ HTML elements can have attributes like:
 <a id="comment"></a>
 ### Comment
 
-* Comment tag: `<--` and `-->`
+* Comment tag: `<!--` and `-->`
 
 ```html
 <!-- This is a comment -->
@@ -197,7 +197,7 @@ Anchor elements are used to link content to the page.
 <a id="unordered-list"></a>
 ### Unordered List
 * Unordered list tag: `<ul>` and `</ul>`
-* List item tag: `<li>` and `<\li>`
+* List item tag: `<li>` and `</li>`
 
 ```html
 <ul>
@@ -213,7 +213,7 @@ Anchor elements are used to link content to the page.
 <a id="ordered-list"></a>
 ### Ordered List
 * Ordered list tag: `<ol>` and `</ol>`
-* List item tag: `<li>` and `<\li>`
+* List item tag: `<li>` and `</li>`
 
 ```html
 <ol>
